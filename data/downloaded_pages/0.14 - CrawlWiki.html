@@ -1,0 +1,488 @@
+<html class="client-js" lang="en" dir="ltr"><head>
+<meta charset="UTF-8">
+<title>0.14 - CrawlWiki</title>
+<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202405070101/reactive_library_fy2021.js"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202405070101/show_ads_impl_fy2021.js"></script><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"0.14","wgTitle":"0.14","wgCurRevisionId":57709,"wgRevisionId":57709,"wgArticleId":6783,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Crawl Versions"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"0.14","wgRelevantArticleId":6783,"wgRequestId":"d02de36a4d9618b77e7ec061","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@014qz08",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.smw.style","ext.smw.tooltips","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;printable=1&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;printable=1&amp;skin=vector">
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;printable=1&amp;skin=vector"></script>
+<style>
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	#toc.tochidden,.toc.tochidden,.toctoggle{display:none}}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:0;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:#fff;cursor:pointer;border:solid 1px #aaa;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:#fff;cursor:pointer;border:solid 1px #aaa;padding:0;margin:0}.suggestions-result{color:#000;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4c59a6;color:#fff}.suggestions-special .special-label{color:#808080;text-align:left}.suggestions-special .special-query{color:#000;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:#c0c0c0}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:#fff}.highlight{font-weight:bold}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:#000;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:#fff}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;printable=1&amp;skin=vector">
+<meta name="generator" content="MediaWiki 1.30.0">
+<meta name="robots" content="noindex,follow">
+<link rel="ExportRDF" type="application/rdf+xml" title="0.14" href="/index.php?title=Special:ExportRDF/0.14&amp;xmlmime=rdf">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CrawlWiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://crawl.chaosforge.org/api.php?action=rsd">
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/ERL66fN363FkXxgDc6F1+ucRUkAhjEca9W3la6xaLnD2Y1lABsqmdaJmPNaUKPKVBRpyMKEhXYl7rSvrQw+AkAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A6OdGH3fVf4eKRDbXb4thXA4InNqDJDRhZ8U533U/roYjp4Yau0T3YSuc63vmAs/8ga1cD0E3A7LEq6AXk1uXgsAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="/load.php?debug=false&amp;lang=en&amp;modules=jquery%2Cmediawiki&amp;only=scripts&amp;printable=1&amp;skin=vector&amp;version=1tx5ucq"></script></head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-0_14 rootpage-0_14 skin-vector action-view" aria-hidden="false">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+		<script type="text/javascript">
+		window.google_analytics_uacct = "UA-3380984-8";
+</script>
+<div class="adsense">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7088061744296615";
+		/* CrawlWiki skyscraper */
+		google_ad_slot = "8196155564";
+		google_ad_width = 160;
+		google_ad_height = 600;
+-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><ins class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-7088061744296615" data-ad-height="600" data-ad-slot="8196155564" data-ad-width="160" data-analytics-uacct="UA-3380984-8" data-adsbygoogle-status="done" style="display: inline-block; width: 160px; height: 600px;" data-ad-status="filled"><div id="aswift_0_host" style="border: none; height: 600px; width: 160px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:160px;height:600px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="160" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7088061744296615&amp;output=html&amp;h=600&amp;slotname=8196155564&amp;adk=1623711945&amp;adf=2699109007&amp;pi=t.ma~as.8196155564&amp;w=160&amp;lmt=1644333603&amp;url=http%3A%2F%2Fcrawl.chaosforge.org%2Findex.php%3Ftitle%3D0.14%26printable%3Dyes&amp;wgl=1&amp;dt=1715492336093&amp;bpp=129&amp;bdt=524&amp;idt=187&amp;shv=r20240508&amp;mjsv=m202405070101&amp;ptt=5&amp;saldr=sd&amp;abxe=1&amp;cookie=ID%3Db6f4910e09c4dc92%3AT%3D1715491675%3ART%3D1715492280%3AS%3DALNI_MbBAf7MuQ-osFnfCxayxsPsuW40Ew&amp;gpic=UID%3D00000e05c3171cae%3AT%3D1715491675%3ART%3D1715492280%3AS%3DALNI_Mb50clQWLez4aHMF1tmkXpuDmlMbQ&amp;eo_id_str=ID%3D92a2309fb7cb02d8%3AT%3D1715491675%3ART%3D1715492280%3AS%3DAA-AfjbO5CG9ga4FI69y8IT9FRO0&amp;correlator=1921409035114&amp;frm=20&amp;pv=2&amp;ga_vid=174752345.1715492336&amp;ga_sid=1715492336&amp;ga_hid=450138892&amp;ga_fc=0&amp;ga_wpids=UA-3380984-8&amp;u_tz=-420&amp;u_his=50&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1055&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;adx=0&amp;ady=0&amp;biw=930&amp;bih=943&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759842%2C95329831%2C95331982%2C95329829%2C95330889%2C95331043%2C95331953%2C95332402%2C95332415&amp;oid=2&amp;pvsid=2273962862746171&amp;tmod=1312345083&amp;uas=0&amp;nvt=1&amp;fc=896&amp;brdim=10%2C49%2C10%2C49%2C1920%2C25%2C945%2C1030%2C945%2C943&amp;vis=1&amp;rsz=%7C%7CeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=23&amp;bz=1&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=246" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJ3Bzvqyh4YDFZ0XrQYdsekOSg" data-load-complete="true"></iframe></div></ins>
+</div>
+
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">0.14</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From CrawlWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div style="border: 1px solid #bb0; background-color: #ff0; border-left: 15px solid #bb0; margin-bottom: 20px; width: 100%; padding: 4px 10px; line-height: 1.25em; width: auto;"><i>This article is about a previous release of <a href="/Crawl" class="mw-redirect" title="Crawl">Crawl</a>. For information about other versions of Crawl, including the newest, see <a href="/List_of_Stone_Soup_versions" title="List of Stone Soup versions">List of Stone Soup versions</a>.</i></div>
+<p><br>
+<b>0.14</b> is a version of <i>Dungeon Crawl Stone Soup</i>. It was released on Apr. 9th, 2014.
+</p>
+<div id="toc" class="toc"><div class="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a role="button" tabindex="0" class="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Highlights"><span class="tocnumber">1</span> <span class="toctext">Highlights</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Branches.2C_environment"><span class="tocnumber">2</span> <span class="toctext">Branches, environment</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Character"><span class="tocnumber">3</span> <span class="toctext">Character</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Monsters"><span class="tocnumber">4</span> <span class="toctext">Monsters</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Spells"><span class="tocnumber">5</span> <span class="toctext">Spells</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Items"><span class="tocnumber">6</span> <span class="toctext">Items</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Cards"><span class="tocnumber">7</span> <span class="toctext">Cards</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Gods"><span class="tocnumber">8</span> <span class="toctext">Gods</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Interface"><span class="tocnumber">9</span> <span class="toctext">Interface</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Release_0.14.1"><span class="tocnumber">10</span> <span class="toctext">Release 0.14.1</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Release_0.14.2"><span class="tocnumber">11</span> <span class="toctext">Release 0.14.2</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Highlights">Highlights</span></h2>
+<ul><li> The lower half of D is now a new branch, the <a href="/Depths" class="mw-redirect" title="Depths">Depths</a>.</li>
+<li> Two new species: <a href="/Formicid" title="Formicid">Formicids</a> and <a href="/Vine_Stalker" title="Vine Stalker">Vine Stalkers</a>.</li>
+<li> A new deity: <a href="/Dithmenos" title="Dithmenos">Dithmenos</a> the Shadowed.</li>
+<li> Greatly revised monster sets in the <a href="/Lair" class="mw-redirect" title="Lair">Lair</a> branches.</li>
+<li> Greatly revised summoning spell sets.</li></ul>
+<h2><span class="mw-headline" id="Branches.2C_environment">Branches, environment</span></h2>
+<ul><li> The main Dungeon is now fifteen levels.</li>
+<li> A new branch: the Depths; entered from the end of Dungeon, it is five levels long and contains the entrance to the <a href="/Realm_of_Zot" class="mw-redirect" title="Realm of Zot">Realm of Zot</a>.</li>
+<li> <a href="/The_Vaults" title="The Vaults">The Vaults</a> are now entered from D:13-14 and need a rune to enter.</li>
+<li> <a href="/Abyss" class="mw-redirect" title="Abyss">Abyssal</a> stairs appear more frequently, and are fixed with depth.</li>
+<li> <a href="/Ziggurat" title="Ziggurat">Ziggurats</a> require only three runes to enter; an entrance is guaranteed in Depths, but still spawn as normal in <a href="/Pan" class="mw-redirect" title="Pan">Pan</a>.</li>
+<li> Portals are no longer closed when carrying the <a href="/Orb_of_Zot" title="Orb of Zot">Orb of Zot</a>.</li>
+<li> The <a href="/Horn_of_Geryon" title="Horn of Geryon">Horn of Geryon</a> is no longer necessary for entering Hell branches.</li>
+<li> <a href="/Labyrinth" title="Labyrinth">Labyrinths</a> contain more enemies, and the <a href="/Minotaur" title="Minotaur">minotaur</a> is normally awake.</li>
+<li> More Ziggurat enemy sets.</li>
+<li> <a href="/Crypt" class="mw-redirect" title="Crypt">Crypt</a> endings now contain some pieces of thematic loot: draining and/or pain and/or vampiric weapons, rings of positive energy and amulets of warding, one of several unrands, the Necronomicon, or evokers/staves.</li>
+<li> Easy <a href="/Ice_cave" title="Ice cave">ice cave</a> portals now appear only in D, Lair, and Orc; hard ice cave portals appear in Elf and rotating Lair branches.</li>
+<li> Portal timers have been generally shortened and made more consistent with each other; additionally, the shorter timer started upon first seeing them has been removed.</li>
+<li> The layout of the last level of the Vaults has been changed, with all four subsections being open at each corner.</li>
+<li> Gadget <a href="/Shop" title="Shop">shops</a> and <a href="/Wand" title="Wand">wand</a> shops have been merged; the resulting gadget shops now also sell <a href="/Rod" title="Rod">rods</a>.</li>
+<li> The price of items in shops has been recalibrated.</li>
+<li> Pandemonium exits occur more frequently as the player obtains runes from Pandemonium.</li></ul>
+<h2><span class="mw-headline" id="Character">Character</span></h2>
+<ul><li> New species:
+<ul><li> Formicids possess four strong arms to use large weapons together with <a href="/Shield" class="mw-redirect" title="Shield">shields</a>, in addition to strong natural digging abilities and a permanent stasis effect.</li>
+<li> Vine stalkers regenerate quickly, but cannot heal with wands or potions; they possess innate spirit shield and an anti-magic bite.</li></ul></li>
+<li> <a href="/Felid" title="Felid">Felids</a> have an innate jump attack ability, allowing them to jump over other monsters and attack their target in a single turn.</li>
+<li> Felids can use wands.</li>
+<li> <a href="/Demonspawn" title="Demonspawn">Demonspawns</a>' negative energy facet has the second level of rN replaced by "black mark," which gives melee attacks a chance to heal the player and apply a bad status to the victim.</li>
+<li> The first two levels of the slow healing mutation only affect rates of healing when enemies are in sight (half and no healing for those levels respectively). Stat regeneration and the third level of the mutation are unchanged.</li>
+<li> Fast/slow movement mutations no longer occur randomly.</li>
+<li> Recommended backgrounds and species have been adjusted; in particular, backgrounds can recommend species that don't necessarily recommend that background and vice versa (e.g. CK -&gt; Tr may be recommended whereas Tr -&gt; CK is not).</li>
+<li> <a href="/Poison" title="Poison">Poison</a> damage is now deterministic.</li>
+<li> The antennae mutation gives invisible monster indicators for every invisible enemy in LOS.</li>
+<li> <a href="/Merfolk" title="Merfolk">Merfolk</a> can now be mesmerised by mermaids and sirens.</li>
+<li> <a href="/Artificer" title="Artificer">Artificers</a>, <a href="/Wanderer" title="Wanderer">Wanderers</a>, <a href="/Assassin" class="mw-redirect" title="Assassin">Assassins</a>, and <a href="/Venom_Mage" title="Venom Mage">Venom Mages</a> no longer start with knowledge of <a href="/Potion" title="Potion">potions</a> and <a href="/Scroll" title="Scroll">scrolls</a> they don't possess.</li>
+<li> <a href="/Fighter" title="Fighter">Fighters</a> and <a href="/Gladiator" title="Gladiator">Gladiators</a> start with higher-tier weapons.</li>
+<li> Fighers start with a <a href="/Potion_of_might" title="Potion of might">potion of might</a>.</li>
+<li> Demonspawn icemail now restores all at once, instead of gradually, and is not disrupted by casting fire spells.</li></ul>
+<h2><span class="mw-headline" id="Monsters">Monsters</span></h2>
+<ul><li> <a href="/Guardian_serpent" title="Guardian serpent">Guardian serpents</a> no longer have <a href="/Teleport_Other" title="Teleport Other">Teleport Other</a>; instead they get <a href="/Blink_Allies_Encircling" title="Blink Allies Encircling">Blink Allies Encircling</a>.</li>
+<li> <a href="/Lom_Lobon" title="Lom Lobon">Lom Lobon</a> can now cast <a href="/Tornado" title="Tornado">Tornado</a>.</li>
+<li> The plain "dragon" is now known as "<a href="/Fire_dragon" title="Fire dragon">fire dragon</a>".</li>
+<li> Dragons, drakes, crabs, and acid blobs no longer flee at low health.</li>
+<li> <a href="/Jellies" class="mw-redirect" title="Jellies">Jellies</a> once again split.</li>
+<li> Monsters are subject to summon caps.</li>
+<li> Summoned creatures are dismissed upon the death of their summoner.</li>
+<li> <a href="/Word_of_Recall" title="Word of Recall">Word of Recall</a> is now subject to a breath timer, and can be interrupted by causing a breath timeout (with e.g. curare).</li>
+<li> Minotaurs appearing naturally outside of labyrinths now come with equipment.</li>
+<li> Abominations don't heal naturally; those created from spells can heal by melding further with crawling corpses and macabre masses.</li>
+<li> New enemies:
+<ul><li> <a href="/Faun" title="Faun">Fauns</a>, who hex the player before attacking from afar, and their larger brethren satyrs, who can empower their nearby allies.</li>
+<li> <a href="/Wind_drake" title="Wind drake">Wind drakes</a>, who can breathe powerful blasts of wind and airstrike the player.</li>
+<li> Thorn lotuses, plants adrift on the water that pepper the player with thorns fired from afar.</li>
+<li> <a href="/Thorn_hunter" title="Thorn hunter">Thorn hunters</a>, who fire volleys of thorns and create briar patches to impede their foes' movements.</li>
+<li> Dryads, who turn the forest against you by casting Awaken Forest like spriggan druids and summoning snaplasher vines that pull their enemies around.</li>
+<li> Water nymphs, who passively form a pool of water around themselves and strike down the player with said water.</li>
+<li> <a href="/Shambling_mangrove" title="Shambling mangrove">Shambling mangroves</a>, slow-moving, tough plants home to a nest of ravens or wasps.</li>
+<li> <a href="/Raiju" title="Raiju">Raiju</a>, which can attack by transforming themselves into a bolt of lightning.</li>
+<li> <a href="/Worldbinder" title="Worldbinder">Worldbinders</a>, abyssal enemies which summon low tier enemies from other branches.</li>
+<li> <a href="/Shock_serpent" title="Shock serpent">Shock serpents</a>, who build up electrical energy for a static discharge;</li>
+<li> <a href="/Mana_viper" title="Mana viper">Mana vipers</a>, snakes with an antimagic bite;</li>
+<li> <a href="/Naga_sharpshooter" title="Naga sharpshooter">Naga sharpshooters</a>, who snipe at the player with Portal Projectile;</li>
+<li> <a href="/Naga_ritualist" title="Naga ritualist">Naga ritualists</a>, who can amplify poison in enemies and also cast Olgreb's Toxic Radiance;</li>
+<li> <a href="/Salamander_mystic" title="Salamander mystic">Salamander mystics</a>, with Bolt of Magma, Haste Other, a single-target version of Ignite Poison, and Iskenderun's Mystic Blast;</li>
+<li> <a href="/Salamander_firebrand" title="Salamander firebrand">Salamander firebrands</a>, whose attacks cause a ring of flames to appear around the target.</li>
+<li> <a href="/Octopode_crusher" title="Octopode crusher">Octopode crushers</a>, who can throw both the victims they constrict as well as icicles.</li></ul></li>
+<li> A new set of enemies based on demonspawn, appearing in Pan.
+<ul><li> Base types:</li>
+<li> monstrous (auxiliary attacks and more HP);</li>
+<li> gelid (rC++ and icemail - bonus AC which dissipates on fire damage);</li>
+<li> infernal (rF++ and fire attacks);</li>
+<li> putrid (rPois, gains HP on nearby kills);</li>
+<li> torturous (augmentation, powered by pain, and spines).</li>
+<li> Classes:</li>
+<li> blood saint (Legendary Destruction, which casts random powerful conjurations, and Ephemeral Infusion, which temporarily heals nearby allies);</li>
+<li> chaos champions (Chaotic Reflection, which inflicts a random hex-like effect on itself and the target, and Random Bolt as per the rod of destruction);</li>
+<li> warmongers (Grand Avatar, essentially a hybrid battlesphere and spectral weapon which triggers on sufficiently damaging attacks of nearby allies, and Sap Magic, a hex which hinders spellcasting success progressively as spells are cast);</li>
+<li> corrupters (Plane Rend, which summons high tier enemies from other branches, and Corrupt Body, which inflicts a small set of temporary mutations);</li>
+<li> black suns (Black Mark, which empowers nearby allies with various draining attacks that heal on hit, and previously existing spells Bolt of Draining, Malign Offering, and Dispel Undead).</li></ul></li>
+<li> Adjustments to lair branch enemies:
+<ul><li> <a href="/Spriggan_druid" title="Spriggan druid">Spriggan druids</a>' Druid's Call now calls 2-3 creatures out of LOS nearby and does not invisibly might creatures; instead, nearby creatures are healed and frenzied on their death. Stone Arrow also replaces Sunray in their spell set.</li>
+<li> Siren songs' pulling effects are now irresistible if the player is already mesmerised.</li>
+<li> Siren songs call drowned souls, weak temporary enemies with a drowning attack.</li>
+<li> <a href="/Manticore" title="Manticore">Manticores</a>' spines now embed themselves in targets, causing damage while moving until a few turns is spent doing nothing to remove them.</li>
+<li> Harpies no longer steal food or eat food off of the ground.</li>
+<li> Plain <a href="/Salamander" title="Salamander">salamanders</a> have been weakened, and all salamanders can slither around on land.</li></ul></li>
+<li> Adjustments to other enemies:
+<ul><li> <a href="/Quokka" title="Quokka">Quokkas</a> are speed 12 (making them effectively identical to grey rats).</li>
+<li> <a href="/Boggart" title="Boggart">Boggarts</a> are more durable.</li>
+<li> <a href="/Rakshasa" title="Rakshasa">Rakshasas</a> gain a monster spell "Phantom Mirror", which summons a clone of a nearby allied monster with half the hit points, with a 50% chance of swapping the clone for the original; this replaces their previous self-cloning abilities.  They can now also cast <a href="/Iskenderun%27s_Mystic_Blast" title="Iskenderun's Mystic Blast">Iskenderun's Mystic Blast</a> and will summon two clones of themselves at 50% HP as a one-time effect.</li>
+<li> <a href="/Giant_orange_brain" class="mw-redirect" title="Giant orange brain">Giant orange brains</a> get <a href="/Mass_Confusion" title="Mass Confusion">Mass Confusion</a> instead of <a href="/Confusion" title="Confusion">Confusion</a>.</li>
+<li> <a href="/Spriggan_(monster)" title="Spriggan (monster)">Spriggans</a> in general now merely have fast movement speed instead of fast speed in general, more damage and less EV.</li>
+<li> <a href="/Spriggan_air_mage" title="Spriggan air mage">Spriggan air mages</a> have <a href="/Haste" title="Haste">Haste</a> (replacing Shock).</li>
+<li> <a href="/Deep_elf_demonologist" title="Deep elf demonologist">Deep elf demonologists</a> summon more greater demons instead of minor demons.</li>
+<li> <a href="/Draconian_knight" title="Draconian knight">Draconian knights</a> have fewer but distinct spell sets focusing on ice and necromancy.</li>
+<li> <a href="/Gargoyle_(monster)" title="Gargoyle (monster)">Gargoyles</a> and <a href="/Molten_gargoyle" title="Molten gargoyle">molten gargoyles</a> now have <a href="/Stone_Arrow" title="Stone Arrow">Stone Arrow</a> and <a href="/Bolt_of_Magma" title="Bolt of Magma">Bolt of Magma</a> respectively, and generate with mace-type weapons.</li>
+<li> Metal gargoyles are now <a href="/War_gargoyle" title="War gargoyle">war gargoyles</a> - fast and with the ability to fire metal fragments at targets.</li>
+<li> Crystal golems are now <a href="/Crystal_guardian" title="Crystal guardian">crystal guardians</a> - less health, but with the ability to fire crystal bolts that bounce off of all walls and deal either fire or cold damage on a per-bolt basis.</li>
+<li> <a href="/Raven" title="Raven">Ravens</a> and <a href="/Eldritch_tentacle" title="Eldritch tentacle">eldritch tentacles</a> no longer eat corpses.</li></ul></li>
+<li> New uniques:
+<ul><li> <a href="/Asterion" title="Asterion">Asterion</a>, a minotaur of <a href="/Makhleb" title="Makhleb">Makhleb</a> who flings <a href="/Major_Destruction" title="Major Destruction">Major Destruction</a> and can employ <a href="/Spectral_Weapon" title="Spectral Weapon">Spectral Weapon</a> with his demon weapon;</li>
+<li> <a href="/Natasha" title="Natasha">Natasha</a>, a felid ex-familiar with minor spellcasting abilities;</li>
+<li> <a href="/Vashnia" title="Vashnia">Vashnia</a>, leader of a squad of naga sharpshooters with translocational ability to match.</li></ul></li>
+<li> Moths of suppression, rock worms, lava fish, lemures, jellyfish, grey rats, spiny worms, giant amoebae, deep dwarf berserkers, agate snails, giant centipedes, rotting devils, clay golems, and stone golems are no more.</li>
+<li> Ball lightnings are no longer permanently confused, instead seeking out targets like giant spores.</li>
+<li> <a href="/Killer_Klown" title="Killer Klown">Killer Klowns</a> have a different set of possible damage brands: strong poison, pain, drain speed, fire, cold, electric, and anti-magic.</li>
+<li> Flying enemies are no longer immune to <a href="/Throwing_net" title="Throwing net">throwing nets</a>.</li>
+<li> <a href="/Geryon" title="Geryon">Geryon</a> can fly once again.</li>
+<li> <a href="/Antaeus" title="Antaeus">Antaeus</a> gains <a href="/Flash_Freeze" title="Flash Freeze">Flash Freeze</a>, an ice conjuration which impedes the target's movement for three turns.</li>
+<li> Player ghosts can retain and cast <a href="/Dazzling_Spray" title="Dazzling Spray">Dazzling Spray</a>, which has a chance to cause a confusion effect against the player.</li>
+<li> All pandemonium lords now see invisible.</li>
+<li> <a href="/The_Enchantress" title="The Enchantress">The Enchantress</a> now appears as a normal unique in the Depths.</li>
+<li> <a href="/Josephine" title="Josephine">Josephine</a> has a new spell set - Ghostly Fireball, Dispel Undead, Vampiric Draining, and Animate Dead - and rN+++.</li>
+<li> Lamia has been de-throned.</li></ul>
+<h2><span class="mw-headline" id="Spells">Spells</span></h2>
+<ul><li> Resisting an enchantment now displays a message showing how difficult in general the target will be to enchant, rather than how well or how poorly they fared on that particular resistance roll.</li>
+<li> New spells:
+<ul><li> <a href="/Summon_Lightning_Spire" title="Summon Lightning Spire">Summon Lightning Spire</a> (L4 Summoning/Air), which places a lightning spire up to two squares away from the player; it replaces Summon Scorpions in the book of Callings.</li>
+<li> <a href="/Summon_Guardian_Golem" title="Summon Guardian Golem">Summon Guardian Golem</a> (L4 Summoning/Charms), which creates a golem that protects the player with Injury Bond and occasionally explodes on death; appears in the book of Callings.</li>
+<li> <a href="/Summon_Forest" title="Summon Forest">Summon Forest</a> (L5 Summoning/Translocations), which summons a dryad and temporarily converts terrain near the player to forest; it is in the Book of the Warp.</li>
+<li> <a href="/Summon_Mana_Viper" title="Summon Mana Viper">Summon Mana Viper</a> (L5 Summoning/Hexes); it appears in the Book of Beasts.</li>
+<li> <a href="/Monstrous_Menagerie" title="Monstrous Menagerie">Monstrous Menagerie</a> (L6 Summoning), which summons a manticore, some harpies, a lindwurm, or a sphinx (at high spellpower); it appears in the book of Beasts and the book of Summonings (replacing Summon Ugly Thing).</li>
+<li> <a href="/Forceful_Dismissal" title="Forceful Dismissal">Forceful Dismissal</a> (L6 Summoning), which ends all player summons and damages enemies next to them; it appears in the <a href="/Grand_Grimoire" title="Grand Grimoire">Grand Grimoire</a>.</li>
+<li> <a href="/Aura_of_Abjuration" title="Aura of Abjuration">Aura of Abjuration</a> (L6 Summoning), a less powerful but per-turn mass abjuration effect; it replaces <a href="/Mass_Abjuration" title="Mass Abjuration">Mass Abjuration</a> in the Grand Grimoire.</li>
+<li> <a href="/Spellforged_Servitor" title="Spellforged Servitor">Spellforged Servitor</a> (L7 Conjuration/Summoning), which summons a servitor with a subset of the player's most destructive conjurations; it replaces <a href="/Fireball" title="Fireball">Fireball</a> in the book of Wizardry.</li>
+<li> <a href="/Glaciate" title="Glaciate">Glaciate</a> (L9 Ice/Conjurations), which fires a great blast of ice in a cone, turning slain monsters into blocks of ice and Flash Freezing the survivors; it replaces Ice Storm in the Book of Annihilations.</li>
+<li> <a href="/Dragon%27s_Call" title="Dragon's Call">Dragon's Call</a> (L9 Summoning), which for its duration of effect summons dragons near targets at the end of LOS (at the full spell cost per summon); replaces Summon Dragon in the <a href="/Book_of_the_Dragon" title="Book of the Dragon">Book of the Dragon</a>.</li></ul></li>
+<li> <a href="/Sticks_to_Snakes" title="Sticks to Snakes">Sticks to Snakes</a> only works on missiles (<a href="/Arrow" title="Arrow">arrows</a> and <a href="/Javelin" title="Javelin">javelins</a>) now.</li>
+<li> <a href="/Conjure_Ball_Lightning" title="Conjure Ball Lightning">Conjure Ball Lightning</a> has been reduced from level 7 to 6, and the duration of the ball lightning has been lowered.</li>
+<li> <a href="/Metabolic_Englaciation" title="Metabolic Englaciation">Metabolic Englaciation</a> has been reduced from level 6 to 5, and the slow duration is cumulative across casts.</li>
+<li> <a href="/Bolt_of_Draining" title="Bolt of Draining">Bolt of Draining</a> has been reduced from level 6 to 5.</li>
+<li> <a href="/Fulminant_Prism" title="Fulminant Prism">Fulminant Prism</a> has been reduced from level 5 to 4.</li>
+<li> <a href="/Iskenderun%27s_Battlesphere" title="Iskenderun's Battlesphere">Iskenderun's Battlesphere</a> has been increased from level 4 to 5.</li>
+<li> <a href="/Ozocubu%27s_Armour" title="Ozocubu's Armour">Ozocubu's Armour</a> now has an encumbrance cap of 4, rendering it no longer usable with mottled dragon armour.</li>
+<li> <a href="/Song_of_Slaying" class="mw-redirect" title="Song of Slaying">Song of Slaying</a> has an increased duration and grants more slaying, but is subject to a lower power cap.</li>
+<li> <a href="/Swiftness" title="Swiftness">Swiftness</a> now induces a period of sluggishness after it expires, and can't be stacked.</li>
+<li> Several special cases for <a href="/LRD" class="mw-redirect" title="LRD">LRD</a> damage types have been removed; ice, bone, stone and rock (including petrified enemies) all result in the same explosion.</li>
+<li> <a href="/Orb_of_Destruction" title="Orb of Destruction">Orb of Destruction</a> now only appears in the <a href="/Book_of_Power" title="Book of Power">Book of Power</a> (was also in Annihilations).</li>
+<li> <a href="/Call_Canine_Familiar" title="Call Canine Familiar">Call Canine Familiar</a> now only summons one canine, and does not summon jackals.</li>
+<li> <a href="/Repel_Missiles" title="Repel Missiles">Repel</a> and <a href="/Deflect_Missiles" title="Deflect Missiles">Deflect Missiles</a> now expire on a per-deflection basis rather than being a duration.</li>
+<li> Portal Projectile is now a duration, rather than firing individual projectiles.</li>
+<li> All clouds caused by the player will dissipate much faster outside of your line of sight.</li>
+<li> Orbs of destruction don't explode if they collide with another orb of destruction before travelling more than a short distance.</li>
+<li> Removed spells: Dig, Summon Scorpions, Song of Shielding, Polymorph, Ice Storm, Demonic Horde, Summon Ugly Thing, Summon Dragon, Mass Abjuration.</li></ul>
+<h2><span class="mw-headline" id="Items">Items</span></h2>
+<ul><li> The Orb of Zot no longer takes up an inventory slot.</li>
+<li> Weapons are identified immediately on wield.</li>
+<li> Wands are identified immediately on zapping.</li>
+<li> Elemental evokers now recharge one at a time, with the one closest to full recharging charging first.</li>
+<li> Items on the ground are no longer subject to item destruction.</li>
+<li> Mottled dragon armour now has an encumbrance rating of 5 (was 4).</li>
+<li> The jumping ego (available only on boots) gives a jump attack ability like that of felids.</li>
+<li> The reaching brand for whips is no more.</li>
+<li> Enchantment-like effects of chaos projectiles are now irresistible.</li>
+<li> Spears, daggers, clubs, and hand axes are no longer good for throwing.</li>
+<li> New "tomahawk" item: a throwing missile, usable by all non-felids, between darts and javelins in damage.
+<ul><li> Small race hunters and arcane marksmen may select tomahawks.</li></ul></li>
+<li> New "potion of lignification" - induces tree form.</li>
+<li> Small species can use throwing nets.</li>
+<li> Throwing nets do not degrade: instead, they have a chance to be destroyed like other projectiles.</li>
+<li> Multiple changes to unrandarts:
+<ul><li> Piercer gets the penetration brand (was vorpal).</li>
+<li> Boots of the Assassin return in a new form: they now detect monsters and allow short-blade-quality stabbing with any weapon (or unarmed).</li>
+<li> Hellfire now shoots hellfire bolts, dealing hellfire-branded damage and exploding.</li>
+<li> The Elemental Staff is reworked considerably - it grants rElec, rF++, rC++, MR++, AC+5, and randomly deals elemental-branded attacks based on the user's Evocations skill.</li>
+<li> The skin of Zhor now grants rC+++.</li>
+<li> Leech drains HP on all hits (instead of 3/5 for other vampiric weapons).</li>
+<li> Sniper is now a +15 vorpal crossbow with a slower rate of fire.</li>
+<li> Snakebite is now a +5 venom whip that applies a curare effect on two out of five hits.</li>
+<li> The Singing Sword is now a bastard sword.</li>
+<li> The shield of the gong is now +27 with -5 EV.</li>
+<li> The ring of Shadows now has an umbra instead of +4 EV and -4 Acc.</li>
+<li> New unrand: "macabre finger necklace" - gives warding and an extra ring slot.</li>
+<li> New unrand: "boots of the Spider" - gives clinging and jump attack.</li>
+<li> New unrand: "dark maul" - a very large, very slow two-handed weapon using the Maces and Flails skill.</li>
+<li> New unrand: "hat of the High Council" - spellpower at the expense of spell success rates.</li>
+<li> New unrand: "arc blade" - a cutlass which inflicts discharges of static electricity on targets it hits.</li>
+<li> New unrand: "Spellbinder" - an antimagic demon whip which inflicts miscasts on magic-using targets.</li>
+<li> New unrand: "lajatang of Order" - does silver damage (like the ammunition brand) and grants resistance to mutation.</li>
+<li> New unrand: "Firestarter" - a +7 great mace {flame, rF++} which protects scrolls from fire damage and inner flames targets it hits.</li>
+<li> The blowgun of the Assassin, Bullseye, and Lehudib's Crystal Spear (the unrandart) are gone.</li></ul></li>
+<li> Potions with known type that would have no effect can no longer be quaffed at all.</li>
+<li> Potions other than potions of porridge and blood no longer give nutrition.</li>
+<li> All gauntlets and bracers are now gloves.</li>
+<li> All caps and wizard hats are now plain "hats".</li>
+<li> Great maces deal slightly less damage and are much less available than before.</li>
+<li> All scrolls now identify on read.</li>
+<li> The last healing potion is automatically identified assuming knowledge that it is a healing potion.</li>
+<li> Magical penetrating projectiles now pierce shields.</li>
+<li> Ponderous items reduce movement delay by -1 (was -2), to match running items.</li>
+<li> Electrocution weapons no longer cause discharges on targets in water.</li>
+<li> Wearing body armour / rings no longer requires removing cloaks / gloves first.</li>
+<li> Scrolls are destroyed less frequently by sticky flame.</li>
+<li> Gold dragon armour, crystal plate armour, and plate armour have had their encumbrance ratings reduced (27 -&gt; 25, 24 -&gt; 23, and 19 -&gt; 18 respectively).</li>
+<li> The speed brand now grants 2/3 weapon delay and no damage reduction (was 1/2 delay and 10% damage reduction for melee weapons).</li>
+<li> Racial equipment is no more.</li>
+<li> Many changes to rods:
+<ul><li> The rod of destruction now fires random bolts instead of having a pre-set selection.</li>
+<li> New rod: rod of ignition, which fires a bolt that explodes a fireball on every target hit in a line.</li>
+<li> New rod: rod of shadows, which summons Shadow Creatures from a depth in the dungeon roughly equivalent to the user's skill with Evocations, drawing out-of-depth spawns after 16.</li>
+<li> New rod: rod of clouds, which creates various clouds based on power, with high skill giving several new types of clouds.</li>
+<li> The rods of warding, venom, demonology, fiery destruction, and frigid destruction are gone.</li></ul></li>
+<li> The Horn of Geryon has been reworked into an XP-charged evokable, summoning 1-4 hell beasts whose friendliness depends on evocations power.</li>
+<li> Renamed items:
+<ul><li> Sabres are now cutlasses (and the captain's cutlass has been adjusted to match);</li>
+<li> Double swords are now bastard swords;</li>
+<li> Triple swords are now claymores;</li>
+<li> Potions of speed are now potions of haste.</li></ul></li>
+<li> Scrolls of vulnerability are now more common.</li>
+<li> Curse scrolls and potions of blood no longer randomly generate.</li>
+<li> All curse scrolls now accept targets (as though the player was worshipping Ashenzari in previous versions).</li>
+<li> Magic resistance-granting items now grant fixed increments of magic resistance (indicated on the&nbsp;% screen).</li>
+<li> Removed potions of slowing.</li></ul>
+<h2><span class="mw-headline" id="Cards">Cards</span></h2>
+<ul><li> The Elixir card now heals over time instead of instantly.</li>
+<li> The Alchemist card is in decks of escape, but not wonders.</li>
+<li> The Bargain card has been removed.</li>
+<li> The Trowel card is in decks of wonder and only creates portals.</li>
+<li> The Battlelust card now deals primarily in might and agility at high power, with the delayed berserk effect now occurring at lower power.</li></ul>
+<h2><span class="mw-headline" id="Gods">Gods</span></h2>
+<ul><li> A new deity: Dithmenos the Shadowed.
+<ul><li> A temple god; guaranteed an altar in Temple or somewhere on D:2-9.</li>
+<li> Accepts kills of most dungeon enemies, particularly those associated with fire or light.</li>
+<li> Dislikes use of fire and light.</li>
+<li> 1* piety grants an umbra which expands with piety.</li>
+<li> 2*: Shadow Step - step adjacent to an immobile target creature no further away than your umbra.</li>
+<li> 3* piety causes the player to occasionally bleed smoke on taking sufficient damage.</li>
+<li> 4*: Shadow Mimic - the player's shadow sometimes mimics melee and ranged attacks and targeted spells (so long as they're not self-targeted).</li>
+<li> 5*: Shadow Form - invisibility, resistance to many effects associated with darkness and 50% damage resistance at the expense of skill drain, a 50% reduction in melee damage output and significant reduction in spell power.</li></ul></li>
+<li> Gods no longer forgive the player for disliked effects of known wands of random effects and weapons of chaos.</li>
+<li> Trolls of Cheibriados hunger considerably more slowly.</li>
+<li> Cheibriados' Bend Time is available to all followers (was 1* ability).</li>
+<li> Zin and Okawaru no longer care about the deaths of allies.</li>
+<li> Okawaru no longer suppresses the demonic guardian Ds mutation.</li>
+<li> Xom effects respect clarity and sustain abilities (as long as Xom is not feeling nasty).</li>
+<li> Xom's confusion now caps at 20 turns.</li>
+<li> Zin's Recite shows what will be affected by all of the relevant recitations.</li>
+<li> Lugonu followers no longer suffer distortion unwield effects.</li>
+<li> Yredelemnul gifts vampires instead of freezing wraiths.</li>
+<li> Yredelemnul armies have a maximum combined total of three profane servitors and bone dragons.</li>
+<li> Yredelemnul's servants are no longer angered when read-identifying a scroll of holy word.</li>
+<li> Nemelex no longer gifts decks of dungeons, and deck gift types are now independent of sacrificed item types.</li>
+<li> Jiyva's abilities no longer use Invocations.</li>
+<li> Divine wrath is now contingent on XP gain and cannot be waited out.</li>
+<li> Okawaru, Trog, Makhleb, Yredelemnul, and Kikubaaqudgha wrath now scales better with player XL.</li>
+<li> Vehmuet wrath now employs actual conjurations instead of miscasts.</li>
+<li> Makhleb wrath can now hurl destruction at the player instead of being limited to servant summoning.</li>
+<li> All skills eventually trainable by divine abilities can be trained immediately on worshipping that god (Invocations for many gods, Evocations for Nemelex, Necromancy for Kiku, and Shields for TSO per Divine Shield).</li>
+<li> Ashenzari now generates 1-3 curse scrolls per remove curse scroll.</li>
+<li> Innate abilities hated by your god are now marked as such.</li></ul>
+<h2><span class="mw-headline" id="Interface">Interface</span></h2>
+<ul><li> "Automagic" functionality similar to autofight has been added through the options automagic_enable, automagic_stop, and automagic_fight; it can be used to automatically cast spells in a specified slot in combat.</li>
+<li> Different types of magical traps are coloured differently.</li>
+<li> Unnaturally hard rock walls have a new default glyph.</li>
+<li> The&nbsp;% screen has a new layout.</li>
+<li> You are prompted to continue wearing/unwearing armour when a monster comes into view.</li>
+<li> "pickup_mode = multi|single" is now "pickup_menu = true|false", with true being the default; "pickup_menu_limit" has been introduced to handle the old "auto:X" settings.</li>
+<li> The "auto_list" option has been removed.</li>
+<li> The WebTiles spectator box sorts names and links online player profiles.</li>
+<li> URLs occurring in WebTiles chat messages are hyperlinked.</li>
+<li> New default minimap colours.</li>
+<li> Examining a monster now displays the speeds at which it takes actions if those actions are slower or faster than its normal speed.</li>
+<li> arena_delay, which controls the speed of arena play and animations, is now available outside of arena mode as view_delay.</li>
+<li> Monsters get invisible monster indicators for one turn after they become invisible to the player.</li>
+<li> The shop screen layout has been revised.</li></ul>
+<h2><span class="mw-headline" id="Release_0.14.1">Release 0.14.1</span></h2>
+<p><b>0.14.1</b> is a bugfix update released on Apr. 28th, 2014.
+</p>
+<ul><li> Several crash fixes.</li>
+<li> Fire dragons correctly grant bonus Dithmenos piety.</li>
+<li> Ranged attacks from invisibile monsters correctly turn off autopickup.</li>
+<li> Good gods punish the player properly for negative energy clouds.</li>
+<li> Natasha no longer revives after being pacified, and does not get a new item when reviving.</li>
+<li> When playing a race with permanent flight ability, it is now possible to remove an item granting flight over dangerous terrain.</li>
+<li> Wanderers do not occasionally get more MP than other backgrounds.</li></ul>
+<h2><span class="mw-headline" id="Release_0.14.2">Release 0.14.2</span></h2>
+<p><b>0.14.2</b> is a bugfix update released on Aug. 27th, 2014.
+</p>
+<ul><li> More crash fixes.</li>
+<li> Some text fixes.</li>
+<li> Transformations no longer allow the character to wield too-large weapons.</li>
+<li> The tutorial skill screen now allows skills to be toggled again.</li>
+<li> Artefact and non-artefact rings are now distinguished properly when swapping rings.</li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20240511185803
+Cache expiry: 86400
+Dynamic content: false
+[SMW] In‐text annotation parser time: 0.001 seconds
+CPU time usage: 0.040 seconds
+Real time usage: 0.044 seconds
+Preprocessor visited node count: 47/1000000
+Preprocessor generated node count: 62/1000000
+Post‐expand include size: 349/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    1.059      1 -total
+100.00%    1.059      1 Template:Oldversion
+-->
+</div>
+<!-- Saved in parser cache with key crawl_wiki-crawl_:pcache:idhash:6783-0!canonical and timestamp 20240511185803 and revision id 57709
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://crawl.chaosforge.org/index.php?title=0.14&amp;oldid=57709">http://crawl.chaosforge.org/index.php?title=0.14&amp;oldid=57709</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Crawl_Versions" title="Category:Crawl Versions">Crawl Versions</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=0.14&amp;returntoquery=printable%3Dyes" title="You are encouraged to log in; however, it is not mandatory [alt-shift-o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-main" class="selected"><span><a href="/0.14" title="View the content page [alt-shift-c]" accesskey="c">Page</a></span></li>
+							<li id="ca-talk"><span><a href="/Talk:0.14" rel="discussion" title="Discussion about the content page [alt-shift-t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label" tabindex="0">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="selected"><span><a href="/0.14">Read</a></span></li>
+							<li id="ca-viewsource"><span><a href="/index.php?title=0.14&amp;action=edit" title="This page is protected.
+You can view its source [alt-shift-e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/index.php?title=0.14&amp;action=history" title="Past revisions of this page [alt-shift-h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label" tabindex="0"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search CrawlWiki" title="Search CrawlWiki [alt-shift-f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off"><input type="hidden" value="Special:Search" name="title"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Crawl_Wiki" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Crawl_Wiki" title="Visit the main page [alt-shift-z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [alt-shift-x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/0.14" title="A list of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/0.14" rel="nofollow" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/index.php?title=0.14&amp;oldid=57709" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=0.14&amp;action=info" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="/Special:Browse/:0.14" rel="smw-browse">Browse properties</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 8 February 2022, at 17:20.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/CrawlWiki:Privacy_policy" title="CrawlWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/CrawlWiki:About" title="CrawlWiki:About">About CrawlWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/CrawlWiki:General_disclaimer" title="CrawlWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.001},"limitreport":{"cputime":"0.040","walltime":"0.044","ppvisitednodes":{"value":47,"limit":1000000},"ppgeneratednodes":{"value":62,"limit":1000000},"postexpandincludesize":{"value":349,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    1.059      1 -total","100.00%    1.059      1 Template:Oldversion"]},"cachereport":{"timestamp":"20240511185803","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":257});});</script>
+	
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_1_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7088061744296615&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=3&amp;lmt=1644333603&amp;plat=1%3A8%2C2%3A8%2C3%3A65536%2C4%3A65536%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=http%3A%2F%2Fcrawl.chaosforge.org%2Findex.php%3Ftitle%3D0.14%26printable%3Dyes&amp;pra=7&amp;wgl=1&amp;easpi=0&amp;aihb=0&amp;asro=0&amp;dt=1715492336249&amp;bpp=15&amp;bdt=680&amp;idt=153&amp;shv=r20240508&amp;mjsv=m202405070101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Db6f4910e09c4dc92%3AT%3D1715491675%3ART%3D1715492280%3AS%3DALNI_MbBAf7MuQ-osFnfCxayxsPsuW40Ew&amp;gpic=UID%3D00000e05c3171cae%3AT%3D1715491675%3ART%3D1715492280%3AS%3DALNI_Mb50clQWLez4aHMF1tmkXpuDmlMbQ&amp;eo_id_str=ID%3D92a2309fb7cb02d8%3AT%3D1715491675%3ART%3D1715492280%3AS%3DAA-AfjbO5CG9ga4FI69y8IT9FRO0&amp;prev_slotnames=8196155564&amp;nras=1&amp;correlator=1921409035114&amp;frm=20&amp;pv=1&amp;ga_vid=174752345.1715492336&amp;ga_sid=1715492336&amp;ga_hid=450138892&amp;ga_fc=0&amp;ga_wpids=UA-3380984-8&amp;u_tz=-420&amp;u_his=50&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1055&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;adx=-12245933&amp;ady=-12245933&amp;biw=930&amp;bih=890&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759842%2C95329831%2C95331982%2C95329829%2C95330889%2C95331043%2C95331953%2C95332402%2C95332415&amp;oid=2&amp;pvsid=2273962862746171&amp;tmod=1312345083&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=896&amp;brdim=10%2C49%2C10%2C49%2C1920%2C25%2C945%2C1030%2C945%2C890&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=23&amp;bz=1&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=177" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><div class="suggestions" style="display: none; font-size: 13.3333px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20240508/r20110914/zrt_lookup_fy2021.html" style="display: none;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; clear: none !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: fixed !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647 !important; background: transparent !important;" aria-hidden="true" data-ad-status="filled" data-vignette-loaded="true"><div id="aswift_2_host" style="border: none !important; height: 100vh !important; width: 100vw !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_2" name="aswift_2" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240508/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-7088061744296615&amp;fa=8&amp;ifi=3&amp;uci=a!3" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CILH0_qyh4YDFcTOwgQdykgGRQ" data-load-complete="true"></iframe></div></ins></html>

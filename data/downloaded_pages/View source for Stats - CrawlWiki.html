@@ -1,0 +1,530 @@
+<html class="client-js" lang="en" dir="ltr"><head>
+<meta charset="UTF-8">
+<title>View source for Stats - CrawlWiki</title>
+<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202405020101/reactive_library_fy2021.js?bust=31083473"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202405020101/show_ads_impl_fy2021.js?bust=31083473"></script><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Stats","wgTitle":"Stats","wgCurRevisionId":79517,"wgRevisionId":0,"wgArticleId":59,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Stats","wgRelevantArticleId":59,"wgRequestId":"9d63b60e5e9c0552a88e521f","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@014qz08",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.tablesorter","mediawiki.searchSuggest","ext.smw.style","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<style>
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}  .mw-content-ltr .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr .mw-collapsible-toggle{float:right} .mw-content-rtl .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl .mw-collapsible-toggle{float:left}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle,.mw-content-ltr li .mw-collapsible-toggle,.mw-content-rtl li .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr li .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+.mw-icon-arrow-collapsed,.mw-collapsible-arrow.mw-collapsible-toggle-collapsed{background-image:url(/resources/src/mediawiki/images/arrow-collapsed-ltr.png?20324);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22UTF-8%22%3F%3E%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22%3E%3Cpath d=%22M4 1.533v9.671l4.752-4.871z%22 fill=%22%23797979%22/%3E%3C/svg%3E");background-image:-o-linear-gradient(transparent,transparent),url(/resources/src/mediawiki/images/arrow-collapsed-ltr.png?20324);background-repeat:no-repeat;background-position:left bottom}.mw-icon-arrow-expanded,.mw-collapsible-arrow.mw-collapsible-toggle-expanded{background-image:url(/resources/src/mediawiki/images/arrow-expanded.png?0888e);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22UTF-8%22%3F%3E%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22%3E%3Cpath d=%22M1.165 3.624h9.671l-4.871 4.752z%22 fill=%22%23797979%22/%3E%3C/svg%3E");background-image:-o-linear-gradient(transparent,transparent),url(/resources/src/mediawiki/images/arrow-expanded.png?0888e);background-repeat:no-repeat;background-position:left bottom}
+table.jquery-tablesorter th.headerSort{background-image:url(/resources/src/jquery/images/sort_both.png?8b01b);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22UTF-8%22%3F%3E%0A%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 21 9%22 height=%229%22 width=%2221%22%3E%0A %3Cpath d=%22M14.5 5l-4 4-4-4zM14.5 4l-4-4-4 4z%22/%3E%0A%3C/svg%3E%0A");background-image:-o-linear-gradient(transparent,transparent),url(/resources/src/jquery/images/sort_both.png?8b01b);cursor:pointer;background-repeat:no-repeat;background-position:center right;padding-right:21px}table.jquery-tablesorter th.headerSortUp{background-image:url(/resources/src/jquery/images/sort_up.png?76242);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22UTF-8%22%3F%3E%0A%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 21 4%22 height=%224%22 width=%2221%22%3E%0A %3Cpath d=%22M6.5 4l4-4 4 4z%22/%3E%0A%3C/svg%3E%0A");background-image:-o-linear-gradient(transparent,transparent),url(/resources/src/jquery/images/sort_up.png?76242)}table.jquery-tablesorter th.headerSortDown{background-image:url(/resources/src/jquery/images/sort_down.png?3f399);background-image:linear-gradient(transparent,transparent),url("data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22UTF-8%22%3F%3E%0A%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 21 4%22 height=%224%22 width=%2221%22%3E%0A %3Cpath d=%22M14.5 0l-4 4-4-4z%22/%3E%0A%3C/svg%3E%0A");background-image:-o-linear-gradient(transparent,transparent),url(/resources/src/jquery/images/sort_down.png?3f399)}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:0;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:#fff;cursor:pointer;border:solid 1px #aaa;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:#fff;cursor:pointer;border:solid 1px #aaa;padding:0;margin:0}.suggestions-result{color:#000;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4c59a6;color:#fff}.suggestions-special .special-label{color:#808080;text-align:left}.suggestions-special .special-query{color:#000;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:#c0c0c0}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:#fff}.highlight{font-weight:bold}</style><style>
+.mw-editfooter-toggler{cursor:pointer;background-position:left center;padding-left:16px}.mw-editfooter-list{margin-bottom:1em;margin-left:2.5em} table.wikitable.preview-limit-report{margin:0}
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:#000;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:#fff}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<meta name="generator" content="MediaWiki 1.30.0">
+<meta name="robots" content="noindex,nofollow">
+<link rel="ExportRDF" type="application/rdf+xml" title="Stats" href="/index.php?title=Special:ExportRDF/Stats&amp;xmlmime=rdf">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CrawlWiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://crawl.chaosforge.org/api.php?action=rsd">
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/ERL66fN363FkXxgDc6F1+ucRUkAhjEca9W3la6xaLnD2Y1lABsqmdaJmPNaUKPKVBRpyMKEhXYl7rSvrQw+AkAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A6OdGH3fVf4eKRDbXb4thXA4InNqDJDRhZ8U533U/roYjp4Yau0T3YSuc63vmAs/8ga1cD0E3A7LEq6AXk1uXgsAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="/load.php?debug=false&amp;lang=en&amp;modules=jquery%2Cmediawiki&amp;only=scripts&amp;skin=vector&amp;version=1tx5ucq"></script></head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Stats rootpage-Stats skin-vector action-edit" aria-hidden="false">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+		<script type="text/javascript">
+		window.google_analytics_uacct = "UA-3380984-8";
+</script>
+<div class="adsense">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7088061744296615";
+		/* CrawlWiki skyscraper */
+		google_ad_slot = "8196155564";
+		google_ad_width = 160;
+		google_ad_height = 600;
+-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><ins class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-7088061744296615" data-ad-height="600" data-ad-slot="8196155564" data-ad-width="160" data-analytics-uacct="UA-3380984-8" data-adsbygoogle-status="done" style="display: inline-block; width: 160px; height: 600px;" data-ad-status="filled"><div id="aswift_0_host" style="border: none; height: 600px; width: 160px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:160px;height:600px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="160" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7088061744296615&amp;output=html&amp;h=600&amp;slotname=8196155564&amp;adk=1623711945&amp;adf=2699109007&amp;pi=t.ma~as.8196155564&amp;w=160&amp;lmt=1715487302&amp;url=http%3A%2F%2Fcrawl.chaosforge.org%2Findex.php%3Ftitle%3DStats%26action%3Dedit&amp;wgl=1&amp;dt=1715487302402&amp;bpp=63&amp;bdt=351&amp;idt=132&amp;shv=r20240508&amp;mjsv=m202405020101&amp;ptt=5&amp;saldr=sd&amp;abxe=1&amp;cookie=ID%3Da5a4dd5f185b7126%3AT%3D1715484238%3ART%3D1715487253%3AS%3DALNI_MaMEP13yy_WapwZpor2WsTRU93FcA&amp;gpic=UID%3D00000e05beb83447%3AT%3D1715484238%3ART%3D1715487253%3AS%3DALNI_MZic6DO1jfB7EQ0ZqlVbFGj86NKrw&amp;eo_id_str=ID%3Dbf3ff059f1a0da69%3AT%3D1715484238%3ART%3D1715487253%3AS%3DAA-AfjYZvCeJ1l6MtV1bKfb7VoIv&amp;correlator=7742182922171&amp;frm=20&amp;pv=2&amp;ga_vid=1576374312.1715487303&amp;ga_sid=1715487303&amp;ga_hid=1337130943&amp;ga_fc=0&amp;ga_wpids=UA-3380984-8&amp;u_tz=-420&amp;u_his=50&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1055&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;adx=754&amp;ady=96&amp;biw=930&amp;bih=943&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759842%2C95331983%2C95332923%2C31083473%2C95329829%2C95330888%2C31082143%2C95331043%2C95331711%2C95332403%2C95332416&amp;oid=2&amp;pvsid=3622695576948529&amp;tmod=1806357479&amp;uas=0&amp;nvt=1&amp;fc=640&amp;brdim=10%2C49%2C10%2C49%2C1920%2C25%2C945%2C1030%2C945%2C943&amp;vis=1&amp;rsz=%7C%7ClE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=23&amp;bz=1&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=194" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CL-Cqpqgh4YDFSIFrQYdsf4Bgw" data-load-complete="true"></iframe></div></ins>
+</div>
+
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">View source for Stats</h1>
+									<div id="bodyContent" class="mw-body-content">
+								<div id="contentSub">← <a href="/Stats" title="Stats">Stats</a></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reason:
+</p>
+<div class="permissions-errors">
+<p>The action you have requested is limited to users in the group: <a href="/index.php?title=CrawlWiki:Users&amp;action=edit&amp;redlink=1" class="new" title="CrawlWiki:Users (page does not exist)">Users</a>.
+</p>
+</div>
+<hr>
+<p>You can view and copy the source of this page.
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" class="mw-editfont-monospace" lang="en" dir="ltr" name="wpTextbox1">{{version031}}
+Your character's basic '''stats''' (or '''attributes''') are [[Strength]] (Str),  [[Intelligence]] (Int) and [[Dexterity]] (Dex). These are determined by your [[species]] and [[background]], grow as you gain experience. They can be changed by equipment, abilities, and [[mutation]]s. They may be damaged by monster abilities; if any stat is reduced to 0 or below, you will suffer [[Stat zero|severe penalties]].
+
+The three defensive stats are your [[armour class]] (AC), your [[evasion]] (EV), and your blocking ability ([[SH]]). Your character also has a limited reserve of [[hit points]] (HP) and [[magic points]] (Magic or MP).
+
+==Starting Stats==
+Each of your '''starting stats''' is the sum of a contribution from your [[species]] and a contribution from your [[background]]. While they do not by any means define your character, it is easier to build your character in a way that is compatible with your stats.
+
+===Species Contributions===
+Not all species have the same stat total; [[Demigod]]s have the highest stats, [[Gnoll]]s have the lowest.
+
+The "gain" column describes how the race automatically gains stats as they level up: a letter indicates the stat beginning with that letter can be chosen, and the number before the colon indicates the frequency of stat gains. So a Human, who would gain one Str, Int, or Dex every 4 levels, is represented by 4:SID. See [[#Gaining Attributes|Gaining Attributes]] below for further details.
+
+{| class="wikitable sortable" style="font-size:75%" border=1
+! scope="col" | Species
+! scope="col" | [[Strength]]
+! scope="col" | [[Intelligence]]
+! scope="col" | [[Dexterity]]
+! scope="col" | Sum
+! scope="col" | Gain
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Armataur
+||13
+||8
+||5
+||26
+||4:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Barachi
+||9
+||8
+||7
+||24
+||4:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Deep Elf
+||5
+||12
+||10
+||27
+||4:I
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Demigod
+||9
+||10
+||9
+||28
+||''Special*''
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Demonspawn
+||8
+||8
+||8
+||24
+||4:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Djinni
+||7
+||9
+||8
+||24
+||4:ID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Draconian
+||10
+||8
+||6
+||24
+||4:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Felid
+||4
+||11
+||11
+||26
+||4:ID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Formicid
+||12
+||7
+||9
+||28
+||4:SI
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Gargoyle
+||11
+||8
+||5
+||24
+||4:SI
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Ghoul
+||11
+||7
+||4
+||22
+||5:S
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Gnoll
+||7
+||7
+||7
+||21
+||4:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Hill Orc
+||10
+||8
+||6
+||24
+||5:S
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Human
+||8
+||8
+||8
+||24
+||4:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Kobold
+||5
+||9
+||10
+||24
+||5:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Merfolk
+||8
+||7
+||9
+||24
+||5:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Minotaur
+||12
+||5
+||5
+||22
+||4:SD
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Mummy
+||11
+||7
+||7
+||25
+||5:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Naga
+||10
+||8
+||6
+||24
+||4:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Octopode
+||7
+||10
+||7
+||24
+||5:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Oni
+||11
+||9
+||4
+||24
+||3:S
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Spriggan
+||4
+||9
+||10
+||23
+||5:ID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Tengu
+||8
+||8
+||9
+||25
+||4:SID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Troll
+||15
+||4
+||5
+||24
+||3:S
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Vampire
+||7
+||10
+||9
+||26
+||5:ID
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Vine Stalker
+||10
+||8
+||9
+||27
+||4:SD
+|-
+! Average !! 8.92 !! 8.19 !! 7.42 !! 24.1 !!
+|}
+&lt;nowiki&gt;* &lt;/nowiki&gt;Demigods do not gain stats randomly. See [[#Gaining Attributes|Gaining Attributes]].
+
+===Background Contributions===
+Your background also contributes to your starting stats, although to a lesser degree than your species. Unlike with species, the sum of the starting stats is the same across all backgrounds (12).
+
+{| class="wikitable sortable" style="font-size:75%" border=1
+! scope="col" | Background
+! scope="col" | [[Strength]]
+! scope="col" | [[Intelligence]]
+! scope="col" | [[Dexterity]]
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Air Elementalist
+||0
+||7
+||5
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Alchemist
+||0
+||7
+||5
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Artificer
+||4
+||3
+||5
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Berserker
+||9
+||-1
+||4
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Brigand
+||3
+||3
+||6
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Chaos Knight
+||4
+||4
+||4
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Cinder Acolyte
+||6
+||6
+||0
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Conjurer
+||-1
+||10
+||3
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Delver
+||4
+||2
+||6
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Earth Elementalist
+||0
+||7
+||5
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Enchanter
+||0
+||7
+||5
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Fighter
+||8
+||0
+||4
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Fire Elementalist
+||0
+||7
+||5
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Gladiator
+||6
+||0
+||6
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Hedge Wizard
+||2
+||6
+||4
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Hexslinger
+||0
+||5
+||7
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Hunter
+||3
+||1
+||8
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Ice Elementalist
+||0
+||7
+||5
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Monk
+||3
+||2
+||7
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Necromancer
+||0
+||7
+||5
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Reaver
+||4
+||5
+||3
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Shapeshifter
+||6
+||2
+||4
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Summoner
+||0
+||7
+||5
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Wanderer
+||*
+||*
+||*
+|-
+|&lt;span style="display:none;"&gt;!a&lt;/span&gt;Warper
+||3
+||5
+||4
+|-
+! Average !! 2.67 !! 4.54 !! 4.79
+|}
+
+&lt;nowiki&gt;*&lt;/nowiki&gt;A wanderer's starting stats are random, weighted to benefit items received, but will also total 12. However, if a stat is greater than 17, it is less likely to be increased.
+
+&lt;!-- This describes behaviour which cannot currently happen in practice. It is left here in case one day it becomes relevant again.
+Your initial strength, intelligence and dexterity cannot be less than 3. In any case where a species-background combo causes a value to be less than 3, it is increased and random other stat decreased until it reaches 3. 
+--&gt;
+125 is the absolute maximum value for strength, dexterity, and intelligence. These ability scores can never go above 125. The minimum value for stats is -128.
+
+===Gaining Attributes===
+Characters will increase attributes naturally as they level, with their race determining which attributes they gain and how often they gain them. Additionally, they get to increase an attribute of their choice by two every six levels, starting at level 3.
+
+Demigods gain a choice of 4 stat points every three levels, but they do not gain any stats randomly from leveling.
+
+==History==
+*Prior to [[0.28]], manual attribute gain was +1 stat per 3 levels.
+*In [[0.17]], the stat cap for [[strength]], [[intelligence]], and [[dexterity]] was increased from 72 to 125.
+*Stats used to be randomized: there were eight stat points that would be allocated randomly, with a slight tendency to raise lower stats in preference to higher ones, but each species contribution was 2 points lower and the class contributions were 2 points lower in total, meaning the total number of stat points was unchanged.
+**Additionally, Wanderers' stats used to total only 6, making the class considerably more difficult. Artificers' totaled 9, although that difference was less significant. As for species, numerous small changes have been made over the years, but one of the more significant ones is to Mummies: they have gone from having some of the worst starting stats (7/3/3, or 13 total) to being among the higher-stat races (though still extremely difficult to play).
+
+[[Category:Stats]]
+[[Category:Characters]]
+</textarea><div class="templatesUsed"><div class="mw-templatesUsedExplanation"><p>Templates used on this page:
+</p></div><ul>
+<li><a href="/Template:Version" title="Template:Version">Template:Version</a> (<a href="/index.php?title=Template:Version&amp;action=edit" title="Template:Version">view source</a>) </li><li><a href="/Template:Version031" title="Template:Version031">Template:Version031</a> (<a href="/index.php?title=Template:Version031&amp;action=edit" title="Template:Version031">view source</a>) </li><li><a href="/Module:Version" title="Module:Version">Module:Version</a> (<a href="/index.php?title=Module:Version&amp;action=edit" title="Module:Version">view source</a>) </li></ul></div><p id="mw-returnto">Return to <a href="/Stats" title="Stats">Stats</a>.</p>
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://crawl.chaosforge.org/Stats">http://crawl.chaosforge.org/Stats</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Stats&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [alt-shift-o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-main" class="selected"><span><a href="/Stats" title="View the content page [alt-shift-c]" accesskey="c">Page</a></span></li>
+							<li id="ca-talk"><span><a href="/Talk:Stats" rel="discussion" title="Discussion about the content page [alt-shift-t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label" tabindex="0">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view"><span><a href="/Stats">Read</a></span></li>
+							<li id="ca-viewsource" class="selected"><span><a href="/index.php?title=Stats&amp;action=edit" title="This page is protected.
+You can view its source [alt-shift-e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Stats&amp;action=history" title="Past revisions of this page [alt-shift-h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label" style="">
+						<h3 id="p-cactions-label" tabindex="0"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search CrawlWiki" title="Search CrawlWiki [alt-shift-f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off"><input type="hidden" value="Special:Search" name="title"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Crawl_Wiki" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Crawl_Wiki" title="Visit the main page [alt-shift-z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [alt-shift-x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Stats" title="A list of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Stats" rel="nofollow" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li><li id="t-info"><a href="/index.php?title=Stats&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/CrawlWiki:Privacy_policy" title="CrawlWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/CrawlWiki:About" title="CrawlWiki:About">About CrawlWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/CrawlWiki:General_disclaimer" title="CrawlWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":161});});</script>
+	
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><div id="aswift_1_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7088061744296615&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=3&amp;lmt=1715487302&amp;plat=1%3A8%2C2%3A8%2C3%3A65536%2C4%3A65536%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=http%3A%2F%2Fcrawl.chaosforge.org%2Findex.php%3Ftitle%3DStats%26action%3Dedit&amp;pra=7&amp;wgl=1&amp;easpi=0&amp;aihb=0&amp;asro=0&amp;aslmct=0.7&amp;asamct=0.7&amp;dt=1715487302662&amp;bpp=3&amp;bdt=612&amp;idt=3&amp;shv=r20240508&amp;mjsv=m202405020101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Da5a4dd5f185b7126%3AT%3D1715484238%3ART%3D1715487253%3AS%3DALNI_MaMEP13yy_WapwZpor2WsTRU93FcA&amp;gpic=UID%3D00000e05beb83447%3AT%3D1715484238%3ART%3D1715487253%3AS%3DALNI_MZic6DO1jfB7EQ0ZqlVbFGj86NKrw&amp;eo_id_str=ID%3Dbf3ff059f1a0da69%3AT%3D1715484238%3ART%3D1715487253%3AS%3DAA-AfjYZvCeJ1l6MtV1bKfb7VoIv&amp;prev_slotnames=8196155564&amp;nras=1&amp;correlator=7742182922171&amp;frm=20&amp;pv=1&amp;ga_vid=1576374312.1715487303&amp;ga_sid=1715487303&amp;ga_hid=1337130943&amp;ga_fc=0&amp;ga_wpids=UA-3380984-8&amp;u_tz=-420&amp;u_his=50&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1055&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;adx=-12245933&amp;ady=-12245933&amp;biw=930&amp;bih=943&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759842%2C95331983%2C95332923%2C31083473%2C95329829%2C95330888%2C31082143%2C95331043%2C95331711%2C95332403%2C95332416&amp;oid=2&amp;pvsid=3622695576948529&amp;tmod=1806357479&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=896&amp;brdim=10%2C49%2C10%2C49%2C1920%2C25%2C945%2C1030%2C945%2C943&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=23&amp;bz=1&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=23" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><div class="suggestions" style="display: none; font-size: 13px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20240508/r20110914/zrt_lookup_fy2021.html" style="display: none;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; clear: none !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: fixed !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647 !important; background: transparent !important;" aria-hidden="true" data-ad-status="filled" data-vignette-loaded="true"><div id="aswift_2_host" style="border: none !important; height: 100vh !important; width: 100vw !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_2" name="aswift_2" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240508/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-7088061744296615&amp;fa=8&amp;ifi=3&amp;uci=a!3" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNacr5qgh4YDFTHWwgQdtbAORg" data-load-complete="true"></iframe></div></ins></html>

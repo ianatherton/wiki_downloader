@@ -1,0 +1,701 @@
+<html class="client-js" lang="en" dir="ltr"><head>
+<meta charset="UTF-8">
+<title>0.8.0 - CrawlWiki</title>
+<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202405020101/reactive_library_fy2021.js?bust=31083473"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202405020101/show_ads_impl_fy2021.js?bust=31083473"></script><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"0.8.0","wgTitle":"0.8.0","wgCurRevisionId":23770,"wgRevisionId":23770,"wgArticleId":729,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Crawl Versions"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"0.8.0","wgRelevantArticleId":729,"wgRequestId":"93a8f494049049fcc900efc9","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@014qz08",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.smw.style","ext.smw.tooltips","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<style>
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	#toc.tochidden,.toc.tochidden,.toctoggle{display:none}}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:0;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:#fff;cursor:pointer;border:solid 1px #aaa;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:#fff;cursor:pointer;border:solid 1px #aaa;padding:0;margin:0}.suggestions-result{color:#000;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4c59a6;color:#fff}.suggestions-special .special-label{color:#808080;text-align:left}.suggestions-special .special-query{color:#000;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:#c0c0c0}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:#fff}.highlight{font-weight:bold}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:#000;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:#fff}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<meta name="generator" content="MediaWiki 1.30.0">
+<link rel="ExportRDF" type="application/rdf+xml" title="0.8.0" href="/index.php?title=Special:ExportRDF/0.8.0&amp;xmlmime=rdf">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CrawlWiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://crawl.chaosforge.org/api.php?action=rsd">
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/ERL66fN363FkXxgDc6F1+ucRUkAhjEca9W3la6xaLnD2Y1lABsqmdaJmPNaUKPKVBRpyMKEhXYl7rSvrQw+AkAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A6OdGH3fVf4eKRDbXb4thXA4InNqDJDRhZ8U533U/roYjp4Yau0T3YSuc63vmAs/8ga1cD0E3A7LEq6AXk1uXgsAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="/load.php?debug=false&amp;lang=en&amp;modules=jquery%2Cmediawiki&amp;only=scripts&amp;skin=vector&amp;version=1tx5ucq"></script></head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-0_8_0 rootpage-0_8_0 skin-vector action-view" aria-hidden="false">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+		<script type="text/javascript">
+		window.google_analytics_uacct = "UA-3380984-8";
+</script>
+<div class="adsense">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7088061744296615";
+		/* CrawlWiki skyscraper */
+		google_ad_slot = "8196155564";
+		google_ad_width = 160;
+		google_ad_height = 600;
+-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><ins class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-7088061744296615" data-ad-height="600" data-ad-slot="8196155564" data-ad-width="160" data-analytics-uacct="UA-3380984-8" data-adsbygoogle-status="done" style="display: inline-block; width: 160px; height: 600px;" data-ad-status="filled"><div id="aswift_0_host" style="border: none; height: 600px; width: 160px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:160px;height:600px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="160" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7088061744296615&amp;output=html&amp;h=600&amp;slotname=8196155564&amp;adk=1623711945&amp;adf=2699109007&amp;pi=t.ma~as.8196155564&amp;w=160&amp;lmt=1706635453&amp;url=http%3A%2F%2Fcrawl.chaosforge.org%2F0.8.0&amp;wgl=1&amp;dt=1715484840710&amp;bpp=134&amp;bdt=322&amp;idt=250&amp;shv=r20240508&amp;mjsv=m202405020101&amp;ptt=5&amp;saldr=sd&amp;abxe=1&amp;cookie=ID%3Da5a4dd5f185b7126%3AT%3D1715484238%3ART%3D1715484838%3AS%3DALNI_MaMEP13yy_WapwZpor2WsTRU93FcA&amp;gpic=UID%3D00000e05beb83447%3AT%3D1715484238%3ART%3D1715484838%3AS%3DALNI_MZic6DO1jfB7EQ0ZqlVbFGj86NKrw&amp;eo_id_str=ID%3Dbf3ff059f1a0da69%3AT%3D1715484238%3ART%3D1715484838%3AS%3DAA-AfjYZvCeJ1l6MtV1bKfb7VoIv&amp;correlator=2674899335388&amp;frm=20&amp;pv=2&amp;ga_vid=1869921355.1715484841&amp;ga_sid=1715484841&amp;ga_hid=2070954608&amp;ga_fc=0&amp;ga_wpids=UA-3380984-8&amp;u_tz=-420&amp;u_his=50&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1055&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;adx=754&amp;ady=96&amp;biw=930&amp;bih=943&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759842%2C95331983%2C31083473%2C31082144%2C95331043%2C95331711%2C95332403%2C95332416&amp;oid=2&amp;pvsid=4000479341477547&amp;tmod=1806357479&amp;uas=0&amp;nvt=1&amp;fc=896&amp;brdim=10%2C49%2C10%2C49%2C1920%2C25%2C945%2C1030%2C945%2C943&amp;vis=1&amp;rsz=%7C%7ClE%7C&amp;abl=CS&amp;pfx=0&amp;fu=0&amp;bc=23&amp;bz=1&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=391" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNysz4SXh4YDFZ4B-QAdzfwGwQ" data-load-complete="true"></iframe></div></ins>
+</div>
+
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">0.8.0</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From CrawlWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div style="border: 1px solid #bb0; background-color: #ff0; border-left: 15px solid #bb0; margin-bottom: 20px; width: 100%; padding: 4px 10px; line-height: 1.25em; width: auto;"><i>This article is about a previous release of <a href="/Crawl" class="mw-redirect" title="Crawl">Crawl</a>. For information about other versions of Crawl, including the newest, see <a href="/List_of_Stone_Soup_versions" title="List of Stone Soup versions">List of Stone Soup versions</a>.</i></div>
+<p><b>0.8.0</b>  is an old version of Dungeon Crawl Stone Stoup, released April 26, 2011.
+</p>
+<div id="toc" class="toc"><div class="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a role="button" tabindex="0" class="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Changelog"><span class="tocnumber">1</span> <span class="toctext">Changelog</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Stone_Soup_0.8_.2820110426.29"><span class="tocnumber">1.1</span> <span class="toctext">Stone Soup 0.8 (20110426)</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#0.8_Highlights"><span class="tocnumber">1.2</span> <span class="toctext">0.8 Highlights</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Gods"><span class="tocnumber">1.3</span> <span class="toctext">Gods</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Character"><span class="tocnumber">1.4</span> <span class="toctext">Character</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Interface"><span class="tocnumber">1.5</span> <span class="toctext">Interface</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Spells"><span class="tocnumber">1.6</span> <span class="toctext">Spells</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Monsters"><span class="tocnumber">1.7</span> <span class="toctext">Monsters</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Levels"><span class="tocnumber">1.8</span> <span class="toctext">Levels</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Items"><span class="tocnumber">1.9</span> <span class="toctext">Items</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Tiles"><span class="tocnumber">1.10</span> <span class="toctext">Tiles</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Technical"><span class="tocnumber">1.11</span> <span class="toctext">Technical</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Options"><span class="tocnumber">1.12</span> <span class="toctext">Options</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Changelog">Changelog</span></h2>
+<h3><span class="mw-headline" id="Stone_Soup_0.8_.2820110426.29">Stone Soup 0.8 (20110426)</span></h3>
+<hr>
+<p>Disclaimer: These are merely the highlights, not an exhaustive list of changes.
+Breaks save compatibility with the 0.7 release.
+</p>
+<h3><span class="mw-headline" id="0.8_Highlights">0.8 Highlights</span></h3>
+<hr>
+<ul><li> New god: <a href="/Ashenzari" title="Ashenzari">Ashenzari</a>, god of divinations.</li>
+<li> New species: <a href="/Felid" title="Felid">Felids</a>, sentient cats.</li>
+<li> New spells: <a href="/Malign_Gateway" title="Malign Gateway">Malign Gateway</a>, <a href="/Tornado" title="Tornado">Tornado</a>, <a href="/Leda%27s_Liquefaction" title="Leda's Liquefaction">Leda's Liquefaction</a>, <a href="/Summon_Dragon" title="Summon Dragon">Summon Dragon</a>, <a href="/Summon_Hydra" title="Summon Hydra">Summon Hydra</a>, <a href="/Darkness" title="Darkness">Darkness</a>.</li>
+<li> Removed spells: <a href="/Bone_Shards" title="Bone Shards">Bone Shards</a>, <a href="/Tame_Beasts" title="Tame Beasts">Tame Beasts</a>, <a href="/Portal" title="Portal">Portal</a>, <a href="/Alter_Self" title="Alter Self">Alter Self</a>, <a href="/Extension" title="Extension">Extension</a>.</li>
+<li> Split Enchantments into <a href="/Hexes" title="Hexes">Hexes</a> (harm foes) and <a href="/Charms" title="Charms">Charms</a> (self-buffs).</li>
+<li> Replaced <a href="/Selective_Amnesia" title="Selective Amnesia">Selective Amnesia</a> spell with <a href="/Scroll_of_amnesia" title="Scroll of amnesia">Scroll of amnesia</a> and book destruction.</li>
+<li> Improved heavy armour.</li>
+<li> <a href="/Makhleb" title="Makhleb">Makhleb</a> and <a href="/The_Shining_One" title="The Shining One">The Shining One</a> are no longer available as starting gods.</li>
+<li> Shortened the <a href="/Elven_Halls" title="Elven Halls">Elven Halls</a>.</li></ul>
+<h3><span class="mw-headline" id="Gods">Gods</span></h3>
+<hr>
+<ul><li> New god: Ashenzari, god of divinations.</li>
+<li> Fixed gods sometimes missing from the game due to some temple vaults.</li>
+<li> Except for Jiyva, prayer is now only used for (piety-gaining) sacrifices. Other effects are abilities.</li>
+<li> Killing monsters from god wrath doesn't give experience or items anymore.</li>
+<li> Gods ignore kills of dancing weapons, ball lightning and vortices.</li>
+<li> No instant divine retribution.</li>
+<li> Beefed up Cheibriados' wrath; no stat boosts during Chei penance.</li>
+<li> Eating with Chei doesn't give piety.</li>
+<li> Cheibriados warns you when putting on boots of running or amulet of rage.</li>
+<li> Armour keeps its ponderousness when melded.</li>
+<li> Invoking Elyvilon's protection is now an ability.</li>
+<li> Destroying weapons in Elyvilon's name is now a prayer.</li>
+<li> Elyvilon allows destruction of staves.</li>
+<li> Clarified Ely's healing/pacification messaging.</li>
+<li> Fedhas cares about trees burnt down in forest fires.</li>
+<li> Fedhas's corpse decomposition is now activated by prayer.</li>
+<li> Followers of Jiyva gain food, hp and mp on jellies slurping items.</li>
+<li> Jiyva no longer provides duplicate conservation and resist corrosion effects.</li>
+<li> Allowed the player more control over what items to sacrifice to Nemelex (on the '^!' screen).</li>
+<li> Kikubaaqudgha's invocations use Necromancy skill.</li>
+<li> Toned down Kiku's mummy death curse protection.</li>
+<li> Made corpses received from Kiku actually fit for reanimation; reduce number of corpses.</li>
+<li> Kikubaaqudgha protects followers from ordinary mummy curses.</li>
+<li> Okawaru: Might -&gt; Heroism, increasing all weapon skills by 5, up to 27.</li>
+<li> Okawaru: Haste -&gt; Finesse, doubled combat speed (melee and ranged).</li>
+<li> Okawaru now accepts kills of holy beings.</li>
+<li> Sif Muna punishes destruction of spellbooks.</li>
+<li> Sif Muna's miscasts don't decrease penance.</li>
+<li> Trog extending your rage doesn't cause glow.</li>
+<li> The Shining One no longer accepts item sacrifices.</li>
+<li> TSO non-holy summon extension at most doubles the current duration.</li>
+<li> Prevented starvation by Xom swapping you to a vampiric weapon.</li>
+<li> Yredelemnul's prayer (Injury Mirror) is now an ability.</li>
+<li> Injury Mirror can now reflect torment damage.</li>
+<li> Yredelemnul accepts kills of artificial beings (golems, gargoyles).</li>
+<li> Overhauled Zin's Recite invocation: much more powerful and interesting.</li>
+<li> Zin protects from Hell effects, chance depending on piety.</li>
+<li> Zin forbids shapeshifting spells and protects against Kirke's pig spell.</li>
+<li> Zin hates monsters with mutagenic/rot corpses.</li>
+<li> Spell failure while already in yellow glow angers Zin.</li>
+<li> Butchering forbidden corpses asks for confirmation.</li>
+<li> Some god welcome messages differ while under penance.</li></ul>
+<h3><span class="mw-headline" id="Character">Character</span></h3>
+<hr>
+<ul><li> New species: Felids, sentient cats.</li>
+<li> Increased GDR from body armour. New GDR formula: 14 * (baseAC-2)^(1/2).</li>
+<li> XP from monster kills is proportional to the damage dealt by player/allies out of total damage.</li>
+<li> No chain paralysis: When coming out of paralysis, you're immune for 1d3 turns.</li>
+<li> Removed Paladins, Reavers and Arcane Marksmen.</li>
+<li> Removed Chaos Knight of Makhleb.</li>
+<li> Split out CK/Lugonu -&gt; Abyssal Knight, Pr/Yredelemnul -&gt; Death Knight.</li>
+<li> Overhauled Draconians, now more interesting.</li>
+<li> Fixed dangerous clouds sometimes being considered safe for travelling.</li>
+<li> Fixed normal mutations possibly preventing getting them as a perma-mutation.</li>
+<li> Stop quick actions from letting you search faster.</li>
+<li> All sources of berserk are blocked at 'Very Hungry'. Berserk automatically stops when you hit 'Starving'.</li>
+<li> Remove experience pool limit; abbreviate the XP pool above 100K.</li>
+<li> Stalker background changed to Transmutation-based Stabber.</li>
+<li> Allow starting with a falchion for Fi and Gl, also restrict trident to these backgrounds.</li>
+<li> Differentiate Ha/Ko aptitudes: Kobolds are good at Summ/Necro/Hex, Halflings at Charm/Tloc.</li>
+<li> Halflings gain innate mutation resistance 1.</li>
+<li> Only cancel levitation once the last equipped +Lev item is removed.</li>
+<li> Nearing stat death causes paralysis, with increasing chances.</li>
+<li> Allow Merfolk transformations even in water.</li>
+<li> Retain talons, fangs and tail in appropriate transformations.</li>
+<li> Don't allow any headgear with Horns 3 or Antennae 3.</li>
+<li> Fix mutators and glowing occasionally giving good mutations.</li>
+<li> Balanced some Demonspawn mutations (Demonic guardian, Nightstalker).</li>
+<li> Remove Demonspawn breath mutations.</li>
+<li> Adapt exclusion radius to the Nightstalker mutation.</li>
+<li> New DS mutation Powered by Pain: restores MP when sufficient damage is taken.</li>
+<li> Demonspawn Fire and Ice facets are now mutually exclusive.</li>
+<li> Ghouls may now use food-cost abilities when starving.</li>
+<li> Ghouls and Vampires may evoke invisibility when starving/bloodless.</li>
+<li> Make hellfire ignore monster AC.</li>
+<li> Remove map-forgetting and spell-forgetting Divination miscast effects.</li>
+<li> Don't prevent blink from putting you in dangerous clouds.</li>
+<li> Don't train Stealth for pacified monsters.</li>
+<li> Allowed Merfolk/Kenku to blink over deep water.</li>
+<li> Allowed Kenku to stop flying.</li>
+<li> Apply terrain change to player when banished.</li>
+<li> Brought Merfolk HP down to Human HP levels.</li>
+<li> Boosted Mummy base MR 3 -&gt; 5.</li>
+<li> Make LOS reducers multiplicative rather than additive.</li>
+<li> Potions/cards of experience give you a full level; similarly drain costs a full level.</li>
+<li> Make stat gain mutations work for satiated Vampires.</li>
+<li> Replace scroll reading penalty while brainless with 80% failure chance.</li>
+<li> A wielded ranged weapon will only 'clumsily bash' monsters, no matter its enchantment.</li>
+<li> Remove the satiation requirements from evokable invis.</li>
+<li> Disable ghost creation/loading in wizard non-debug mode.</li>
+<li> Better warning messages for form and levitation expiration.</li>
+<li> Consistently abort teleportation attempts when wearing stasis or -TELE.</li>
+<li> Give Ogres an extra +1 hp per level, and +3 apts in Fighting and M&amp;F.</li>
+<li> Mention dietary and drinkary habits of mummies on the 'A' screen.</li>
+<li> Also meld wielded weapons.</li>
+<li> Disallow wearing hats in spider or ice form; allow wearing shields in statue form.</li>
+<li> Prevent ice form from picking items at the bottom of deep water.</li>
+<li> Overhaul combo recommendations.</li></ul>
+<h3><span class="mw-headline" id="Interface">Interface</span></h3>
+<hr>
+<ul><li> New tutorial, split into different maps/lessons.</li>
+<li> Fix a crash when reloading a game after restart_after_game.</li>
+<li> Allow item interaction from the inventory.</li>
+<li> Messages for things coming into view even when not exploring.</li>
+<li> Bind Tab to autofight, shift-Tab to autofight_nomove.</li>
+<li> Autofight: fire at nearest enemy if wielding a ranged weapon.</li>
+<li> More status lights: transformations, post-berserk fatigue, temporary resistances.</li>
+<li> Timeout information for temporary resistances and see invisible.</li>
+<li> New background choice layout, grouped by category.</li>
+<li> Display piety on the main screen.</li>
+<li> Use inventory colours for stats area and&nbsp;% screen.</li>
+<li> New, more informative and mouse-operable skill menu ('m' screen).</li>
+<li> Don't consider places next to slime walls as "safe".</li>
+<li> Allow traveling across radius 1 excluded stairs.</li>
+<li> Don't generate cloud autoexclusions when immune.</li>
+<li> Don't prompt for cloud-excluded staircases.</li>
+<li> Make i_feel_safe() smarter about critters behind lava/statues/etc.</li>
+<li> Explicitly name inventory items that are getting destroyed.</li>
+<li> Display ghosts' xl rank, species and background when they come into view.</li>
+<li> In the console version, don't override monster colour when berserk.</li>
+<li> Fix exclusion LOS not being updated properly.</li>
+<li> Make shift-running respect exclusions.</li>
+<li> Allow ' to auto-switch from unarmed to slot b.</li>
+<li> Clear stack autopickup flag when dropping an item on top of it.</li>
+<li> List prompt choices explicitly, i.e. "(y)es or (n)o" rather than "y/n".</li>
+<li> Starting sub-menus: Escape brings back to main menu instead of exiting the game.</li>
+<li> Don't waste turns attempting known prevented scroll teleports/blinks.</li>
+<li> Inscribe item modification scrolls with "tried on foo".</li>
+<li> Disallow autoexploring while berserking.</li>
+<li> Don't mark level 1 upstairs and branch exits as unvisited.</li>
+<li> Colours for output of Ctrl-F.</li>
+<li> Re-enable highlighting of notes.</li>
+<li> Colour annotations in Overview.</li>
+<li> Colouring labyrinth messages.</li>
+<li> Add force_more_messages for bazaar and labyrinth announcements.</li>
+<li> Don't prompt for which ring to swap if one of them is cursed.</li>
+<li> When enchanting an unknown piece of armour, mark it as uncursed.</li>
+<li> Make the . drop/pickup selector respect quantity input.</li>
+<li> '*' inverts selection instead of selecting drop_filter, and ',' selects all instead of inverting.</li>
+<li> More information when missing.</li>
+<li> More information when MR is effective.</li>
+<li> Display on the HUD if you're both hasted and slowed.</li>
+<li> Add a toggle to the discoveries screen to display _un_known items.</li>
+<li> Check terrain before clouds for moveto check.</li>
+<li> Don't warn about entering excluded portals.</li>
+<li> Force a -more- on death.</li>
+<li> Autoinscribe randarts after death.</li>
+<li> Taskbar overlap is now automatically detected, and the window is placed just above it.</li>
+<li> Allow setting of the window size relative to the screen size.</li>
+<li> Fix Tab not working correctly in startup menus.</li>
+<li> Reinitialize message window and notes for restart_after_game.</li>
+<li> Don't waste a turn and/or magic when aborting various actions.</li>
+<li> For local builds, mention morgue location after hiscore or when doing a chardump.</li>
+<li> Extend and rearrange tutorial/hints mode command help.</li>
+<li> Better feedback when canceling various prompts.</li>
+<li> Split monster/feature quotes into another screen toggleable via '!'.</li>
+<li> Add several missing descriptions, improve some existing ones.</li></ul>
+<h3><span class="mw-headline" id="Spells">Spells</span></h3>
+<hr>
+<ul><li> Split Enchantments skill and spell school into <a href="/Charms" title="Charms">Charms</a> and <a href="/Hexes" title="Hexes">Hexes</a>.</li>
+<li> Removed <a href="/Bone_Shards" title="Bone Shards">Bone Shards</a>, <a href="/Tame_Beasts" title="Tame Beasts">Tame Beasts</a>, <a href="/Portal" title="Portal">Portal</a>, <a href="/Alter_Self" title="Alter Self">Alter Self</a>, <a href="/Extension" title="Extension">Extension</a>.</li>
+<li> New spell: <a href="/Passage_of_Golubria" title="Passage of Golubria">Passage of Golubria</a> (Tloc 5).</li>
+<li> New spell: <a href="/Malign_Gateway" title="Malign Gateway">Malign Gateway</a> (Summ/Tloc 7).</li>
+<li> New spell: <a href="/Tornado" title="Tornado">Tornado</a> (Air 9).</li>
+<li> New spell: <a href="/Leda%27s_Liquefaction" title="Leda's Liquefaction">Leda's Liquefaction</a> (Tmut/Earth 4), area slowing effect.</li>
+<li> New spell: <a href="/Summon_Dragon" title="Summon Dragon">Summon Dragon</a> (Summ 9).</li>
+<li> New spell: <a href="/Summon_Hydra" title="Summon Hydra">Summon Hydra</a> (Summ 7), summons short-lived 4-12 headed hydra.</li>
+<li> New spell: <a href="/Darkness" title="Darkness">Darkness</a> (Hex 7), decreases LOS radius by 2.</li>
+<li> Prevent passwalling into deep water/lava if it would kill you.</li>
+<li> Fix <a href="/Lee%27s_Rapid_Deconstruction" title="Lee's Rapid Deconstruction">Lee's Rapid Deconstruction</a> not obeying some checks when destroying walls.</li>
+<li> Fix casting cloud spells out of range, or on (and through) walls.</li>
+<li> Teleportation interrupts <a href="/Passwall" title="Passwall">Passwall</a>.</li>
+<li> Fix weapon grinding via <a href="/Shadow_Creatures" title="Shadow Creatures">Shadow Creatures</a> in the Hall of Blades.</li>
+<li> <a href="/Animate_Dead" title="Animate Dead">Animate Dead</a> no longer animates through walls.</li>
+<li> Don't prompt for casting auto-hit spells "in direction" of allies.</li>
+<li> Nerf <a href="/Haste" title="Haste">Haste</a>: multiplies speed by 1.5 instead of 2. Same factors apply to <a href="/Slow" title="Slow">Slow</a>.</li>
+<li> Replace <a href="/Selective_Amnesia" title="Selective Amnesia">Selective Amnesia</a> with <a href="/Scroll_of_amnesia" title="Scroll of amnesia">Scroll of amnesia</a>.</li>
+<li> Allow forgetting spells from books, destroying the book in question.</li>
+<li> Nerf <a href="/Sticky_Flame" title="Sticky Flame">Sticky Flame</a> range to 1.</li>
+<li> Removed slower training for magic schools; doubled xp cost for opposing schools.</li>
+<li> Stop the player from <a href="/Vampiric_Draining" title="Vampiric Draining">Vampiric Draining</a> known demons and undead.</li>
+<li> Disallow <a href="/Fulsome_Distillation" title="Fulsome Distillation">Fulsome Distillation</a> while levitating.</li>
+<li> Implement a crude spell quiver. Store last spell cast.</li>
+<li> Add a toggle to the memorisation screen for the spell descriptions.</li>
+<li> Auto-id items of wizardry if you have spellcasting skills.</li>
+<li> Enable autotargeting for <a href="/Vampiric_Draining" title="Vampiric Draining">Vampiric Draining</a> and <a href="/Freeze" title="Freeze">Freeze</a>.</li>
+<li> Make <a href="/Borgnjor%27s_Revivification" title="Borgnjor's Revivification">Borgnjor's Revivification</a> cost 2-11 *percent* of maxhp.</li>
+<li> Restore casting noise for target spells.</li>
+<li> Add noise level to spell description.</li>
+<li> Increased claw damage for <a href="/Dragon_Form" class="mw-redirect" title="Dragon Form">Dragon Form</a>, also allows trampling.</li>
+<li> For <a href="/Draconian" title="Draconian">Draconians</a>, <a href="/Dragon_Form" class="mw-redirect" title="Dragon Form">Dragon Form</a> changes into dragon of the appropriate colour.</li>
+<li> <a href="/Animate_Skeleton" title="Animate Skeleton">Animate Skeleton</a> works on unskeletalized corpses and leaves chunks behind.</li>
+<li> <a href="/Shadow_Creatures" title="Shadow Creatures">Shadow Creatures</a> summons only mobile monsters.</li>
+<li> Slightly bump <a href="/Orb_of_Destruction" title="Orb of Destruction">Orb of Destruction</a> (IOOD) damage.</li>
+<li> Allow <a href="/Sticks_to_Snakes" title="Sticks to Snakes">Sticks to Snakes</a> on staves and javelins, disallow on steel/silver stuff.</li>
+<li> Allow Tukimizing staves.</li>
+<li> New level 3 <a href="/Air" class="mw-redirect" title="Air">Air</a> <a href="/Miscast" class="mw-redirect" title="Miscast">miscasts</a>; buff <a href="/Air" class="mw-redirect" title="Air">Air</a> <a href="/Miscast" class="mw-redirect" title="Miscast">miscasts</a>.</li>
+<li> Buff <a href="/Static_Discharge" title="Static Discharge">Static Discharge</a>: Higher damage and increased chance of arcing.</li>
+<li> Make <a href="/Summon_Butterflies" title="Summon Butterflies">Summon Butterflies</a> require spell power for effectiveness.</li>
+<li> Heavily nerf orb <a href="/Apportation" title="Apportation">Apportation</a>. Chance and distance depend on spell power and total distance.</li>
+<li> Make <a href="/Death_Channel" title="Death Channel">Death Channel</a> spectrals temporary, let ally kills work too. Reduce to level 7.</li>
+<li> Make semi-controlled <a href="/Blink" title="Blink">Blink</a> random if it fails to find a location.</li>
+<li> <a href="/Evaporate" title="Evaporate">Evaporate</a> no longer uses <a href="/Throwing" title="Throwing">Throwing</a> skill.</li>
+<li> <a href="/Summon_Swarm" title="Summon Swarm">Summon Swarm</a> monsters are always friendly; lower it to level 5.</li>
+<li> While <a href="/Ring_of_Flames" title="Ring of Flames">Ring of Flames</a> is active, flame clouds are removed when you step on them.</li>
+<li> Make LOS-affecting spells work through transparent walls.</li>
+<li> Boost LRD damage.</li>
+<li> <a href="/Apportation" title="Apportation">Apportation</a> targetting: allow cycling with +/-.</li>
+<li> When apporting part of a stack, don't destroy the rest of it.</li>
+<li> Don't <a href="/Rot" title="Rot">rot</a> while under <a href="/Death%27s_Door" title="Death's Door">Death's Door</a>.</li>
+<li> <a href="/Death_Channel" title="Death Channel">Death Channel</a> spectral monsters are not abjurable.</li>
+<li> Merge low spell success adjectives (Cruddy, Bad, Very Poor) into Very Poor (now 5-30%).</li>
+<li> Move spells around among various spellbooks.</li>
+<li> Reduce the chance of any book to be replaced by Power/Wizardry from 10% to 4%.</li>
+<li> Don't prompt for targeting self with clouds if you've got the matching resistance.</li>
+<li> Ensure <a href="/Death%27s_Door" title="Death's Door">Death's Door</a> leaves you at least 1 hp.</li>
+<li> Make only heavy armour remove <a href="/Ozocubu%27s_Armour" title="Ozocubu's Armour">Ozocubu's Armour</a> on wearing.</li>
+<li> Make large rocks do extra damage with <a href="/Sandblast" title="Sandblast">Sandblast</a>.</li>
+<li> Allow swapping to large rocks when <a href="/Sandblast" title="Sandblast">Sandblast</a> is memorised.</li>
+<li> Offer wielding coagulated blood for <a href="/Sublimation_of_Blood" title="Sublimation of Blood">Sublimation of Blood</a>.</li>
+<li> Make transformations affect <a href="/Stealth" title="Stealth">stealth</a>.</li>
+<li> Don't cancel <a href="/Condensation_Shield" title="Condensation Shield">Condensation Shield</a> when blinking/teleporting.</li>
+<li> Don't hurt rC- players with <a href="/Condensation_Shield" title="Condensation Shield">Condensation Shield</a>.</li>
+<li> Don't prompt for unwielding weapons branded with <a href="/Warp_Weapon" title="Warp Weapon">Warp Weapon</a>.</li>
+<li> Don't let Mummies/Lichform cast <a href="/Sublimation_of_Blood" title="Sublimation of Blood">Sublimation of Blood</a> on themselves, do let them cast <a href="/Passwall" title="Passwall">Passwall</a>.</li>
+<li> Reduce <a href="/Haunt" title="Haunt">Haunt</a> duration</li>
+<li> Increase <a href="/Sandblast" title="Sandblast">Sandblast</a> to range 2 without stones, range 3 with.</li>
+<li> Boost <a href="/Stone_Arrow" title="Stone Arrow">Stone Arrow</a> damage from 2d12 at 50 power to 3d11.</li>
+<li> Change several spell levels to be more appropriate.</li>
+<li> Mention glow in <a href="/Haste" title="Haste">Haste</a>/<a href="/Invisibility" title="Invisibility">Invisibility</a> spell descriptions.</li>
+<li> Consolidate the books of Minor Magic into a single book.</li>
+<li> Include spell hunger in the chardump.</li></ul>
+<h3><span class="mw-headline" id="Monsters">Monsters</span></h3>
+<hr>
+<ul><li> New monster set: feature mimics.</li>
+<li> New monster set: holy monsters.</li>
+<li> New monster set: spriggans.</li>
+<li> New monster set: deep dwarves (in Abyss, Ziggurats).</li>
+<li> Several new monsters, including <a href="/Silent_spectre" title="Silent spectre">silent spectre</a>, <a href="/Sky_beast" title="Sky beast">sky beast</a>, <a href="/Porcupine" title="Porcupine">porcupine</a>, <a href="/Fire_crab" title="Fire crab">fire crab</a>, <a href="/Bog_mummy" title="Bog mummy">bog mummy</a>, and a few new spiders.</li>
+<li> New unique: Jory, mesmerising vampire.</li>
+<li> New monster spells: Cause Fear, Drain Life, Agony, Summon Elemental, Noxious Cloud.</li>
+<li> Fix a crash when looking up ghosts in the db search.</li>
+<li> Fix silence working on demons, orbs of fire, etc.</li>
+<li> Fix messages about monsters coming into view ignoring mislead.</li>
+<li> Fix monsters being capable of spellcasting while berserk, reading scrolls while silenced.</li>
+<li> Disallow various attacks on submerged monsters.</li>
+<li> Fix Aizul and Mara casting through allies.</li>
+<li> Fix rock worms aimlessly moving around in walls instead of attacking.</li>
+<li> Get rid of mummy death curses turning potions into decay.</li>
+<li> Don't give experience or items for killing monsters from god wrath or miscasts.</li>
+<li> Don't make a monster coming into view leave a trail on the edge of LOS.</li>
+<li> Give Asmodeus a permanent ring of flames, replace greater demon with fire summon, remove bolt of draining.</li>
+<li> Give Dispater Lehudib's Crystal Spear instead of Lightning Bolt.</li>
+<li> Give Geryon a reaching attack, make beasts trample.</li>
+<li> Give Lom Lobon antimagic attacks.</li>
+<li> Give Mnoleg blink and mutate attacks, summon eyeballs instead of greater demons, more hp.</li>
+<li> Give the non-spellcasting random pan lords (10% chance) a guaranteed melee brand, and a chance of greater speed.</li>
+<li> Compensate for the Haste nerf by slowing some monsters most players fight hasted.</li>
+<li> Huge monsters (dragons, elephants) can trample smaller ones, shoving them around.</li>
+<li> Krakens have multi-segment tentacles.</li>
+<li> Spiders and a few other monsters can cling to walls which allows them to effectively bypass water and other obstacles.</li>
+<li> Non-stupid monsters try to avoid slime walls.</li>
+<li> Allies animating dead is okay for hungry level 3 herbivores.</li>
+<li> Make monsters consider resistances along with AC for armour pickup.</li>
+<li> Only allow allies to pick up weapons, armour and ammunition.</li>
+<li> Boost ettins to hit as hard as dual-wielding stone giants. Move them deeper.</li>
+<li> Sheep can catch fire and spread it to other sheep.</li>
+<li> Polymorphed uniques may only cast spells if they can speak.</li>
+<li> Better movement AI for ranged attackers, now try to regain line of fire.</li>
+<li> Make yaks, death yaks, ugly things and slime creatures stick together when wandering.</li>
+<li> Try to make wandering band members stick around the leader.</li>
+<li> Make wandering band members path back to the leader.</li>
+<li> Let band leaders displace their followers.</li>
+<li> Allow friendly monsters to path to you across the level.</li>
+<li> Friendlies start following you again after killing target instead of wandering.</li>
+<li> Smart monsters use pathfinding to go around shallow water.</li>
+<li> Monsters floundering in shallow water move slowly and fumble attacks.</li>
+<li> Large monsters don't flounder in shallow water.</li>
+<li> Giant monsters can walk through deep water as if it were shallow.</li>
+<li> Make the royal jelly stay on Slime:6.</li>
+<li> Limit number of summons from lamp of fire and fan of air.</li>
+<li> Make skeletal warriors obey silence.</li>
+<li> Greatly improve cacodemons.</li>
+<li> Hungry ghost attack takes 25% of your nutrition.</li>
+<li> Prevent confused giant eyeballs from paralyzing.</li>
+<li> Make aquatic monsters chase instead of submerging if they can.</li>
+<li> Friendly monsters told to 'wait here' don't follow through stairs.</li>
+<li> Merged slimes split on polymorph.</li>
+<li> Porkelated monsters can't cast spells either.</li>
+<li> Implement snail/turtle shells; withdrawing into such a shell adds extra protection.</li>
+<li> Print 'zot!' sound when a friendly monster triggers a zot trap outside LOS.</li>
+<li> Make zombified monsters retain their stats (at least, HD and HP).</li>
+<li> Boring beetles may now burrow along diagonals.</li>
+<li> No elephants in D and Vaults, slightly reduce their frequency in Lair.</li>
+<li> Remove bears, replace with grizzly or black bears where appropriate.</li>
+<li> Boost monster ghouls' health and damage.</li>
+<li> Monsters respect glowing when deciding whether to cast Invisibility.</li>
+<li> Ugly things may mutate if adjacent to a monster glowing with radiation.</li>
+<li> Make good and strict neutral monsters not choose nearby foes.</li>
+<li> Disallow armour mimics from taking the forms of hides.</li>
+<li> Fix monsters not getting the same bonuses from dragon hides as players.</li>
+<li> Naga/serpent glyph changes. (See 'settings/071_monster_glyphs.txt'.)</li>
+<li> Refactor monster vamp draining.</li>
+<li> Tweak Grinder's spells, weapon, and reduce depth (6-10 -&gt; 3-6).</li>
+<li> Don't give Grinder a high-tier wand, nor Ijyb in Sprint.</li>
+<li> Don't hand out pain weapons to Grinder (pain attack flavour) and Pikel (whip of electrocution).</li>
+<li> Add paralysis and draining to the list of high tier wands.</li>
+<li> Don't consider plants/fungi 'interesting', no matter their rarity.</li>
+<li> Give every monster a globally unique id for proper attribution of clouds, poisoning etc.</li></ul>
+<h3><span class="mw-headline" id="Levels">Levels</span></h3>
+<hr>
+<ul><li> New game mode: 'Zot Defence'.</li>
+<li> Shorten Elven Halls from 7 -&gt; 5 floors.</li>
+<li> Use a random Temple map if the original temple map is no longer available.</li>
+<li> Fix portal vaults not being deleted after leaving.</li>
+<li> Place escape hatches in all isolated Orcish Mines bubbles.</li>
+<li> Make entering portal vaults from Hell work correctly.</li>
+<li> Travelling to/from the Vestibule of Hell works now.</li>
+<li> Include "Ten Rune Challenge" Dungeon Sprint map, slightly tweaked.</li>
+<li> New sprint map by 78291.</li>
+<li> Prevent randomly teleporting into the Slime:6 loot chambers.</li>
+<li> Introduce serial vaults consisting of several themed mini vaults.</li>
+<li> Every random Pan vault now has a 1/9 chance of having a demonic rune in it.</li>
+<li> No banishment from hell effects.</li>
+<li> No more darkgrey walls/floors in Geh:7 or Gloorx.</li>
+<li> Ambient noise levels for dungeon branches (affecting stealth).</li>
+<li> Describe level 1 upstairs as "staircase leading out of the dungeon."</li>
+<li> Don't enable cTele by quaffing Elf fountains.</li>
+<li> Plain water fountains give no nutrition.</li>
+<li> Fix no-cTele announcements being affected by Translocations skill.</li>
+<li> Generate at most one labyrinth per game (~70% chance), at depth 10-20, never in Slime or Orc.</li>
+<li> Troves aren't timed anymore, and always require an item.</li>
+<li> Nerf troves: increased entry fees, reduced loot.</li>
+<li> Make troves handle manuals correctly.</li>
+<li> Don't generate outright useless troves for your species.</li>
+<li> Timed markers get a second timer, activated on sight.</li>
+<li> Extend unannounced portal timers to around 3000 turns.</li>
+<li> Don't open transparent secret doors with warnings.</li>
+<li> New noise propagation system, taking into account walls and doors.</li>
+<li> Fix good_item gold giving ludicrous amounts.</li>
+<li> Fix no traps being generated on Zot:5.</li>
+<li> Reveal teletraps triggered by a monster in sight.</li>
+<li> Replace hell exit stairs with portals.</li>
+<li> Boost alarm trap noise to 25.</li>
+<li> Two custom traps: basket of spiders, falling grate.</li>
+<li> Change temple_entry_steam to mist, which doesn't block autotravel.</li>
+<li> Allow vaults to specify shops, monster gods, wand charges.</li>
+<li> New temple maps, many with &lt; 12 altars.</li>
+<li> Many great new vaults (entry vaults, serial, Lair/Snake branch ends, etc.)</li></ul>
+<h3><span class="mw-headline" id="Items">Items</span></h3>
+<hr>
+<ul><li> New items: scroll of curse jewellery, scroll of amnesia.</li>
+<li> Remove scrolls of paper, rods of discovery, crystal balls of fixation.</li>
+<li> Nerf the speed brand. Damage reduced to 90%.</li>
+<li> Increase the guaranteed damage reduction from armour.</li>
+<li> Body armour can be enchanted up to a bonus equivalent to its base AC.</li>
+<li> Enchant armour scrolls don't fail because of high bonus anymore.</li>
+<li> Antimagic weapon brand.</li>
+<li> Disable equipment corrosion from slime walls.</li>
+<li> Remove the robe of the Archmagi's experience penalty.</li>
+<li> Remove wizardry effect from Archmagi, allow it to enhance Tmut/Tloc spells.</li>
+<li> Autopickup weapons subjected to Tukima's Dance.</li>
+<li> Disallow blowing Geryon's horn when silenced.</li>
+<li> Fix breakage of blood potion stacks when partially eaten by jellies.</li>
+<li> Fix randarts with unknown base type sometimes not being eligible for&nbsp;?identify.</li>
+<li> Fix rod pluses not being considered for&nbsp;?identify.</li>
+<li> Fix misleading spell descriptions on rods; display average power.</li>
+<li> Disallow creation of randart demonic weapons with the holy wrath brand.</li>
+<li> Fix equipping sInv artefact not reactivating autopickup.</li>
+<li> Fix throwing nets becoming 'stuck' in certain situations.</li>
+<li> Fix permafood being coloured brown like contaminated chunks.</li>
+<li> Inscribe "was cursed" for items uncursed using&nbsp;?enchant foo.</li>
+<li> Fix an information leak about magic resistance from unidentified items.</li>
+<li> Remove random staff ID over time: identify staff types on wield, just like weapons and rods do.</li>
+<li> Give staves and rods a chance to be generated cursed.</li>
+<li> Allow staves of poison to affect monsters with rPois; Olgreb is 1/4 irresistible.</li>
+<li> Give the staff of death rN+.</li>
+<li> Give the staff of summoning warding, sometimes abjure summons on hit.</li>
+<li> Asphyxiation resistance blocks curare damage, but not slowing.</li>
+<li> Poison resistance protects against curare entirely.</li>
+<li> Add new chunk type that is both poisonous and contaminated.</li>
+<li> Remove +AC/+EV from randarts. Fixedarts still keep them.</li>
+<li> Auto-id gourmand for non-Mu non-full-herbivores (level 3).</li>
+<li> Allow cancelling some scrolls without consuming them.</li>
+<li> Allow (M)emorising from books on the floor.</li>
+<li> Reintroduce item stat loss prompts.</li>
+<li> Prompt before wearing or wielding a known-cursed item.</li>
+<li> Remove misleading messages about weapon str/dex weighting.</li>
+<li> Don't corrode ammo by clumsily bashing jellies with it.</li>
+<li> Don't acquire manuals or sage to utterly useless skills.</li>
+<li> Improve rods of striking: 1d5 -&gt; 1d8.</li>
+<li> Do proper foe checking for rod spells that are direct effects.</li>
+<li>&nbsp;?EWII may uncurse blowguns.</li>
+<li> Remove nutrition on hit for vampiric weapons.</li>
+<li> Make Evocations skill help with ball of seeing radius.</li>
+<li> Disallow use of staff of channeling when starving.</li>
+<li> Give missiles of flame/frost some bonus damage.</li>
+<li> Add noise to missiles.</li>
+<li> Make wield mass check apply to all items.</li>
+<li> Tweak some cards' probabilities and effects.</li>
+<li> More detailed corrosion resistance reporting.</li>
+<li> Mention butchery requirement for food in corpse description.</li>
+<li> Tweak blood potion descriptions to mention nutrition for non-herbivores.</li>
+<li> Disable generation of missiles and bows of reaping.</li>
+<li> Remove scrolls of recharging's effect on weapons of electrocution.</li>
+<li> Stop the generation of racial missiles.</li>
+<li> Make ball of energy stat loss now drains between 1 and 2/3 max Int.</li>
+<li> Improve some unrandart weapons: add brands, more damage.</li>
+<li> Improve Maxwell's Patent Armour: AC+15, +preservation ego, +MR.</li>
+<li> Improve Staff of Wucad Mu: remove miscast effects except for when channeling.</li>
+<li> Make potions of experience give some xp for skills as well.</li>
+<li> Fix acquirement hardly ever generating "plain" crystal plates and dragon armour.</li>
+<li> Make acquirement's "redundant armour" check consider things seen rather than worn.</li>
+<li> Allow acquirement of non-regular shields, weighted by skills.</li>
+<li> When using an unidentified potion or scroll, display its name in the message.</li>
+<li> New Demon axe unrandart: obsidian axe, adds a siren-like pull to nearby monsters.</li>
+<li> All weapons have min 7 delay, or better.</li></ul>
+<h3><span class="mw-headline" id="Tiles">Tiles</span></h3>
+<hr>
+<ul><li> Fix crash when searching the database for zombies.</li>
+<li> Fix mouseclick travel internally using the vi keys.</li>
+<li> Fix manuals being readable while berserk or "brainless".</li>
+<li> Fix tooltip leaking mimic information.</li>
+<li> For the message overlay, treat mouseclicks as relevant to the map (travel etc.) rather than the message history.</li>
+<li> Run pngcrush in non-debug builds if installed, shaving 700KB per download.</li>
+<li> Fix randomized animation of unidentified wand/missile.</li>
+<li> New tile tabs for common commands and for skill management.</li>
+<li> Space allowing, detach monster, spell and command tabs.</li>
+<li> Automatically zoom the minimap to fill available space.</li>
+<li> Generate a Windows Alert dialog on assertions.</li>
+<li> Allow mouseclick movement through exclusions and stationary monsters.</li>
+<li> Clicking on an enemy while wielding a ranged weapon fires at it.</li>
+<li> Fix the need to click on an enemy twice to fire or cast at it.</li>
+<li> Casting with ctrl+click casts the last spell if appropriate.</li>
+<li> Suppress tree descriptions on mouseover.</li>
+<li> Make sure mouseover descriptions are only triggered by mouse movement.</li>
+<li> Ctrl-mouseclick asks for quantity for drop/pickup.</li>
+<li> Add disturbance tiles for invisible monsters in clouds.</li>
+<li> More helpful and less obnoxious exclusion tiles.</li>
+<li> Reinstate the red haze during berserk.</li>
+<li> Add species-dependent lich/statue form tiles, capable of weapon display.</li>
+<li> Use poison icon for player doll, if poisoned.</li>
+<li> New title screens (Denzi, Omndra).</li>
+<li> Add tiles to the startup menu.</li>
+<li> Remove shield tiles from various shieldless monsters.</li>
+<li> New runed armour/weapon tiles.</li>
+<li> Fix randart item tiles never actually being used.</li>
+<li> Many great new monster tiles.</li>
+<li> Improved Swamp and Lair floor.</li>
+<li> New dungeon statue, blood, and Xom altar tiles.</li>
+<li> Reinitialise dungeon tiles if TILE_WALL_MAX changed between versions.</li>
+<li> Store vault-defined tile names in the save.</li>
+<li> Overhaul tiles_help.txt.</li></ul>
+<h3><span class="mw-headline" id="Technical">Technical</span></h3>
+<hr>
+<ul><li> No setgid installs, due to many security issues; this means no shared scores or ghosts.</li>
+<li> Saves are stored in single files, with transactional protection against crashes.</li>
+<li> Don't include lua chunks in save files.</li>
+<li> Autosave at game start and in Sprint, to keep crashes from losing the game.</li>
+<li> Internal changes to handling monsters/LOS/map/UI, merged from NetTiles.</li>
+<li> Reduce idle clock threshold, fix several bugs in measuring play time.</li>
+<li> Except for public servers, ensure robustness against filesystem crashes.</li>
+<li> Special and non-special unrandarts use the same generation code.</li>
+<li> Reorder spell code by school and functionality.</li>
+<li> Simplify ghost I/O.</li>
+<li> Clean up the level generation code.</li></ul>
+<h3><span class="mw-headline" id="Options">Options</span></h3>
+<hr>
+<ul><li> Change the explore_stop option to use greedy_pickup_smart by default.</li>
+<li> New travel_key_stop option for whether keypresses should interrupt travel/resting.</li>
+<li> Default easy_exit_menu to false; make all keyhelp menus respect this option.</li>
+<li> Make autopickup_no_burden default to true.</li>
+<li> New console option: 'show_player_species' (default false), uses appropriate monster glyph.</li>
+<li> New option: 'show_real_turns' (default off).</li>
+<li> Tiles: New option: 'tile_layout_priority', for fully customizable tile tabs.</li>
+<li> Tiles: Replace 'tile_title_screen' (default true) with 'tile_skip_title' (false).</li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20240511185805
+Cache expiry: 86400
+Dynamic content: false
+[SMW] In‐text annotation parser time: 0.001 seconds
+CPU time usage: 0.036 seconds
+Real time usage: 0.039 seconds
+Preprocessor visited node count: 55/1000000
+Preprocessor generated node count: 80/1000000
+Post‐expand include size: 349/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    1.023      1 -total
+100.00%    1.023      1 Template:Oldversion
+-->
+</div>
+<!-- Saved in parser cache with key crawl_wiki-crawl_:pcache:idhash:729-0!canonical and timestamp 20240511185805 and revision id 23770
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://crawl.chaosforge.org/index.php?title=0.8.0&amp;oldid=23770">http://crawl.chaosforge.org/index.php?title=0.8.0&amp;oldid=23770</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Crawl_Versions" title="Category:Crawl Versions">Crawl Versions</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=0.8.0" title="You are encouraged to log in; however, it is not mandatory [alt-shift-o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-main" class="selected"><span><a href="/0.8.0" title="View the content page [alt-shift-c]" accesskey="c">Page</a></span></li>
+							<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:0.8.0&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [alt-shift-t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label" tabindex="0">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="selected"><span><a href="/0.8.0">Read</a></span></li>
+							<li id="ca-viewsource"><span><a href="/index.php?title=0.8.0&amp;action=edit" title="This page is protected.
+You can view its source [alt-shift-e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/index.php?title=0.8.0&amp;action=history" title="Past revisions of this page [alt-shift-h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label" style="">
+						<h3 id="p-cactions-label" tabindex="0"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search CrawlWiki" title="Search CrawlWiki [alt-shift-f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off"><input type="hidden" value="Special:Search" name="title"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Crawl_Wiki" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Crawl_Wiki" title="Visit the main page [alt-shift-z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [alt-shift-x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/0.8.0" title="A list of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/0.8.0" rel="nofollow" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=0.8.0&amp;printable=yes" rel="alternate" title="Printable version of this page [alt-shift-p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=0.8.0&amp;oldid=23770" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=0.8.0&amp;action=info" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="/Special:Browse/:0.8.0" rel="smw-browse">Browse properties</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 11 December 2013, at 21:18.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/CrawlWiki:Privacy_policy" title="CrawlWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/CrawlWiki:About" title="CrawlWiki:About">About CrawlWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/CrawlWiki:General_disclaimer" title="CrawlWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.001},"limitreport":{"cputime":"0.036","walltime":"0.039","ppvisitednodes":{"value":55,"limit":1000000},"ppgeneratednodes":{"value":80,"limit":1000000},"postexpandincludesize":{"value":349,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    1.023      1 -total","100.00%    1.023      1 Template:Oldversion"]},"cachereport":{"timestamp":"20240511185805","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":169});});</script>
+	
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><div id="aswift_1_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7088061744296615&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=3&amp;lmt=1706635453&amp;plat=1%3A8%2C2%3A8%2C3%3A65536%2C4%3A65536%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=http%3A%2F%2Fcrawl.chaosforge.org%2F0.8.0&amp;pra=7&amp;wgl=1&amp;easpi=0&amp;aihb=0&amp;asro=0&amp;aslmct=0.7&amp;asamct=0.7&amp;dt=1715484840897&amp;bpp=1&amp;bdt=509&amp;idt=381&amp;shv=r20240508&amp;mjsv=m202405020101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Da5a4dd5f185b7126%3AT%3D1715484238%3ART%3D1715484838%3AS%3DALNI_MaMEP13yy_WapwZpor2WsTRU93FcA&amp;gpic=UID%3D00000e05beb83447%3AT%3D1715484238%3ART%3D1715484838%3AS%3DALNI_MZic6DO1jfB7EQ0ZqlVbFGj86NKrw&amp;eo_id_str=ID%3Dbf3ff059f1a0da69%3AT%3D1715484238%3ART%3D1715484838%3AS%3DAA-AfjYZvCeJ1l6MtV1bKfb7VoIv&amp;prev_slotnames=8196155564&amp;nras=1&amp;correlator=2674899335388&amp;frm=20&amp;pv=1&amp;ga_vid=1869921355.1715484841&amp;ga_sid=1715484841&amp;ga_hid=2070954608&amp;ga_fc=0&amp;ga_wpids=UA-3380984-8&amp;u_tz=-420&amp;u_his=50&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1055&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;adx=-12245933&amp;ady=-12245933&amp;biw=930&amp;bih=890&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759842%2C95331983%2C31083473%2C31082144%2C95331043%2C95331711%2C95332403%2C95332416&amp;oid=2&amp;pvsid=4000479341477547&amp;tmod=1806357479&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=896&amp;brdim=10%2C49%2C10%2C49%2C1920%2C25%2C945%2C1030%2C945%2C890&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=23&amp;bz=1&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=458" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><div class="suggestions" style="display: none; font-size: 13px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div><iframe src="https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html" width="0" height="0" style="display: none;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20240508/r20110914/zrt_lookup_fy2021.html" style="display: none;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; clear: none !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: fixed !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647 !important; background: transparent !important;" aria-hidden="true" data-ad-status="filled" data-vignette-loaded="true"><div id="aswift_2_host" style="border: none !important; height: 100vh !important; width: 100vw !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_2" name="aswift_2" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240508/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-7088061744296615&amp;fa=8&amp;ifi=3&amp;uci=a!3" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNCn4ISXh4YDFapDLQQdmAwA9w" data-load-complete="true"></iframe></div></ins></html>
