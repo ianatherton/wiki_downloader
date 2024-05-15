@@ -10622,3 +10622,17 @@ Stacktrace:
 2024-05-12 04:21:22,642 - INFO - Downloading: http://crawl.chaosforge.org/Deep_elf_blademaster
 2024-05-12 04:28:15,715 - INFO - Loaded progress from data/progress.pkl
 2024-05-12 04:28:15,718 - INFO - Downloading: http://crawl.chaosforge.org/Jumping
+2024-05-15 14:16:13,482 - INFO - Loaded progress from data/progress.pkl
+2024-05-15 14:16:13,483 - INFO - Downloading: http://crawl.chaosforge.org/Jumping
+2024-05-15 14:16:18,017 - INFO - Downloaded and saved: crawl.chaosforge.org.html
+2024-05-15 14:16:24,605 - INFO - Found 44 valid links on page: http://crawl.chaosforge.org/Jumping
+2024-05-15 14:16:24,607 - INFO - Extracted 39 unique links from page: http://crawl.chaosforge.org/Jumping
+2024-05-15 14:16:24,611 - INFO - Progress: Downloaded 1217 pages.
+2024-05-15 14:16:24,706 - INFO - Saved progress to data/progress.pkl
+2024-05-15 14:16:24,707 - INFO - Downloading: http://crawl.chaosforge.org/Protection
+2024-05-15 14:16:30,211 - INFO - Downloaded and saved: Protection - CrawlWiki.html
+2024-05-15 14:16:34,465 - INFO - Found 66 valid links on page: http://crawl.chaosforge.org/Protection
+2024-05-15 14:16:34,476 - INFO - Extracted 50 unique links from page: http://crawl.chaosforge.org/Protection
+2024-05-15 14:16:34,482 - INFO - Progress: Downloaded 1218 pages.
+2024-05-15 14:16:34,718 - INFO - Saved progress to data/progress.pkl
+2024-05-15 14:16:34,719 - INFO - Downloading: http://crawl.chaosforge.org/Rampaging
